@@ -1,0 +1,9 @@
+Requirement:
+安裝 node.js
+
+流程:
+用npm安裝好hexo後
+1.必須安裝npm install hexo-deployer-git --save  才能進行git的上傳
+2.必須將git設置為系統環境變數才能使用
+
+
