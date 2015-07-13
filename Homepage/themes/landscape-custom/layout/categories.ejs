@@ -3,15 +3,20 @@
 <!--<%- css(['https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css']) %>-->
 <%- js(['https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js']) %>
 
-(function(){console.log(site.categories.length);})();
+<script type="Text/JavaScript">
+$(document).ready(function(){
+
+})
+</script>
+
+
 
 <div>
 	<div class="archives-wrap">
 		 <h1 class="archive-year"><%= page.title %></h1>
 	</div>
-	<div class="archives-wrap">
 	<% console.log("==============") %>
-	<% console.log(site.categories.data); %>
+	<% console.log(site.categories) %>
 	<% console.log("==============") %>
 		<% if (theme.widgets.length) { %>
 		    <div class="col-md-9">
@@ -19,26 +24,22 @@
 			<div class="col-md-12">
 		<% } %>
 		    <% if (site.categories.length) { %>
-			    <% site.categories.sort('name').each(function(item){ %>
-				    	<article class="archive-article archive-type-post">
-				    	<div class="archive-year-wrap">
-				        <h4 class="archive-article-title" id="<%= item.name %>" data-target="#modal-<%= item.name %>"> <%= item.name %></h4>
-				        </div>
-				        <div class="archives">
-				            <% site.posts.sort('date', -1).forEach(function(it){ %>
-				                "<%= item.name %>","<%= it.title %>"
-				                            <% if (it.categories.length == 1 && it.categories.data[0]._id == item._id){ %>
-				                            	<div class="archive-article-inner" id="modal-<%= item.name %>" >
-				                       	            <header class="archive-article-header">
-	        					       	                <h1 itemprop="name">
-	               	       	                                <a class="archive-article-title" href="<%= config.root %><%= it.path %>" <% if (it.description) { %> title="<%= it.description %>" <% } %>><%= it.title %></a></li>
-                   				                        </h1>
-                   				                    </header>		       	                                				                        				                    				                </div>
-				                            <% } %>
-			                <% }); %>
-			            </div>
-			            </article>
-			   <% }); %>
+		    	<%- list_categories() %>
 		    <% } %>
+
+        <div class="archive">
+		    <% site.categories.sort('name').each(function(item){ %>
+		    <h4 class="archive-ul show" data-toggle="collapse" id="<%= item.name %>" data-target="#modal-<%= item.name %>"> <%= item.name %> <b class="caret"></b></h4>
+		    <ul id="modal-<%= item.name %>" class="collapse in">
+		        <% site.posts.sort('date', -1).forEach(function(it){ %>
+			        <% if (it.categories.length == 1 && it.categories.data[0]._id == item._id){ %>
+		   	        <li class="listing-item"><a href="<%= config.root %><%= it.path %>" <% if (it.description) { %> title="<%= it.description %>" <% } %>><%= it.title %></a></li>
+			        <% } %>
+		        <% }); %>
+		   </ul>
+		   <% }); %>
+		   </ul>
+        </div>
+
 	</div> <!-- col-md-9 -->
 </div> <!-- row-fluid -->
