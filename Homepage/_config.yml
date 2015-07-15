@@ -72,3 +72,16 @@ deploy:
   type: git
   repo: https://github.com/Tokenyet/Tokenyet.github.io.git
   branch: master
+
+plugins:
+  - hexo-generator-feed
+
+# Disqus
+disqus_shortname: tokenyet
+
+# RSS hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
