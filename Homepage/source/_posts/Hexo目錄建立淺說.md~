@@ -54,7 +54,7 @@ Hexo就會自動幫你把 index.html 要的內容從 ejs 中印出來。
 <% }); %>
 ```
 
-這段就是能否實作目錄的關鍵了。由於知識不夠的我寫的很亂，想看的話就去我[存網站的地方](https://github.com/Tokenyet/Website-restore/blob/master/Homepage/themes/landscape-custom/layout/categories.ejs)看吧。
+這段就是能否實作目錄的關鍵了。由於知識不夠的我寫的很亂，想看的話就去我[存網站的地方看](https://github.com/Tokenyet/Website-restore/blob/master/Homepage/themes/landscape-custom/layout/categories.ejs)吧。
 
 
 
