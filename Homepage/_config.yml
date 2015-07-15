@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://github.com/Tokenyet/Tokenyet.github.io.git
+url: http://tokenyet.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -76,9 +76,6 @@ deploy:
 plugins:
   - hexo-generator-feed
   - hexo-generator-sitemap
-
-sitemap:
-    path: sitemap.xml
 
 # Disqus
 disqus_shortname: bcmtokenyet
