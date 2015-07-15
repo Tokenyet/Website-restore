@@ -1,6 +1,6 @@
 title: Markdown Test
 date: 2015-06-28 22:00:31
-categories: 測試
+categories: [測試]
 tags: [Test]
 ---
 
@@ -8,7 +8,7 @@ tags: [Test]
 
 ##*This* **is my new post** for test any Markdown lauguage.
 
-```
+``` 
 	This is a code
 ```
 
