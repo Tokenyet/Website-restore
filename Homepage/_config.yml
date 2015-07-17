@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Tokenyet's Blog
-subtitle: first try
-description: a simple blog
-author: Dowen Den
+title: Dowen's Warudo
+subtitle: Love Games, Knowledge Sharing.
+description: 記錄著學習中的任何事物。
+author: Dowen
 language: zh_tw
 timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://github.com/Tokenyet/Tokenyet.github.io.git
+url: http://tokenyet.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,3 +72,17 @@ deploy:
   type: git
   repo: https://github.com/Tokenyet/Tokenyet.github.io.git
   branch: master
+
+plugins:
+  - hexo-generator-feed
+  - hexo-generator-sitemap
+
+# Disqus
+disqus_shortname: bcmtokenyet
+
+# RSS hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
