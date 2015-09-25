@@ -28,6 +28,11 @@ tags: [Windows10,Win10,System,ntoskrnl.exe]
 第二個是設定(Win10我不解的奇怪新產物)
 點桌面->個人化->設定->系統->通知與動作
 將 <font color="red">顯示關於Windows的通知</font> 關掉!!!
-(這方法我完成後還未出現Memory占用CPU過高問題)
+(這方法也沒什麼效果..)
 
-建議可以兩個方法都嘗試，如果只嘗試一個無效的話。
+第三個是關閉Superfetch與Prefetch(沒效也可以減少SSD的操勞)
+Win+R -> services.msc -> Superfetch disable掉
+到HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters
+把EnablePrefetcher與EnableSuperfetch改為0
+
+建議可以三個方法都嘗試，如果只嘗試一個無效的話。
