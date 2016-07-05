@@ -167,3 +167,6 @@ glfwDestroyWindow(window);
 glfwTerminate();
 ```
 而最後的就是glfw不使用的釋放資源方式，通常不需要特別注意這個部分，就跟init一樣，會建置就好。
+
+最後的結果如下圖:
+{% img "/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/result.png" 420 %}
