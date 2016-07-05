@@ -30,6 +30,21 @@ OpenGL在繪製任何你所指定的東西的時候，都是將它拆解成或�
 其實剛剛講了很多，並不是真正的繪製，只是屬於形狀的分割最佳化，到後面經過你一連串的shader與一些fixed後最終才會經過一個名為rasterizer的傢伙進行著色(真正開始動像素的地方)，中文叫光柵化，簡單想像就是一個幫你將3D的東西繪製到2D上的步驟。
 
 
+## Extension ##
+這個算是新版OpenGL的一個利於內部人員很好的擴充機制，而這些擴充機制雖然利用開發人員，不過當我們想要使用的時候卻是長得像下面這般模樣。
+```
+const char *name = "glGenBuffers";
+void *p = (void *)wglGetProcAddress(name);
+if(p == 0 ||
+(p == (void*)0x1) || (p == (void*)0x2) || (p == (void*)0x3) ||
+(p == (void*)-1) )
+{
+	HMODULE module = LoadLibraryA("opengl32.dll");
+	p = (void *)GetProcAddress(module, name);
+}
+```
+寫了8行Code只為了取得一個function在顯示卡內部的哪個位置，然後拿出來提供我們使用，看到這裡不需要害怕，[下篇](../OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment)文章會提到如何使用第三發開發的framework幫助我們解決這些問題。
+
 ## 小結: ##
 如果聽不懂管線或是對pipelines感到陌生，就當作是一個產品生產的流程圖，先做好車體結構->再安裝車殼->再安裝輪胎，這樣的一個流程稱為pipeline。
 其實本來多弄點圖解，不過實在是有點累(懶)呀，如果有需要的話，我再努力做給大家看。
