@@ -13,16 +13,16 @@ tags: [OpenGL,OpenGL教學,OpenGL Tutorial,GLFW,GLEW]
 首先先到[GLFW官方下載](http://www.glfw.org/download.html)中找一個名為「32-bit Windows binaries」的元件 ( 注意! 64-bit Windows binaries的建議不要使用，Dowen我在建置的時候會遇到非常多問題)，抓下來後接下來就照著以下的圖片設置。
 
 將GLFW放到任何認為合適的地方，之後再點選VS的專案->屬性，再點選VC++目錄，然後我們主要要變動的有以下兩個，Include目錄與程式庫目錄。
-{% img "/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/VSProperty.png" 600 %}
+{% img "/images/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/VSProperty.png" 600 %}
 設定好Include與Library。
 
 {% raw %}
 <div class="container-outside-div">
 	<div class="container-inside-div">
-		<img src="/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glfw_include.png" style="width: 420px">
+		<img src="/images/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glfw_include.png" style="width: 420px">
 	</div>
 	<div class="container-inside-div">
-		<img src="/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glfw_lib.png" style="width: 420px">
+		<img src="/images/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glfw_lib.png" style="width: 420px">
 	</div>
 </div>
 {% endraw %}
@@ -31,10 +31,10 @@ tags: [OpenGL,OpenGL教學,OpenGL Tutorial,GLFW,GLEW]
 {% raw %}
 <div class="container-outside-div">
 	<div class="container-inside-div">
-		<img src="/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/input.png" style="width: 420px">
+		<img src="/images/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/input.png" style="width: 420px">
 	</div>
 	<div class="container-inside-div">
-		<img src="/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glfw_input_lib.png" style="width: 350px">
+		<img src="/images/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glfw_input_lib.png" style="width: 350px">
 	</div>
 </div>
 {% endraw %}
@@ -60,15 +60,15 @@ if(p == 0 ||
 {% raw %}
 <div class="container-outside-div">
 	<div class="container-inside-div">
-		<img src="/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glew_include.png" style="width: 420px">
+		<img src="/images/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glew_include.png" style="width: 420px">
 	</div>
 	<div class="container-inside-div">
-		<img src="/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glew_lib.png" style="width: 420px">
+		<img src="/images/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glew_lib.png" style="width: 420px">
 	</div>
 </div>
 {% endraw %}
 
-{% img "/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glew_input.png" 420 %}
+{% img "/images/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glew_input.png" 420 %}
 
 
 這樣一切的環境就準備好了。
@@ -115,7 +115,7 @@ if (window == nullptr) // window creation failed
 glfwMakeContextCurrent(window); 
 ```
 
-`glfwWindowHint`代表的是對`glfwCreateWindow`所創造出的視窗來做事前設定，而`GLFW_OPENGL_PROFILE`的設定成`GLFW_OPENGL_CORE_PROFILE`的意義是，如果我們在使用到OpenGL的function中有用到一些3.3版本之前而且新OpenGL不支援的語法的時候，就會強制跳出錯誤，這樣可以避免誤用一些過時的function。
+`glfwWindowHint`代表的是對`glfwCreateWindow`所創造出的視窗來做事前設定，而`GLFW_OPENGL_PROFILE`設定成`GLFW_OPENGL_CORE_PROFILE`的意義是，如果我們在使用到OpenGL的function中有用到一些3.3版本之前而且新OpenGL不支援的語法的時候，就會強制跳出錯誤，這樣可以避免誤用一些過時的function。
 
 
 ``` cpp
@@ -177,4 +177,4 @@ glfwTerminate();
 而最後的就是glfw不使用的釋放資源方式，通常不需要特別注意這個部分，就跟init一樣，會建置就好。
 
 最後的結果如下圖:
-{% img "/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/result.png" 420 %}
+{% img "/images/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/result.png" 420 %}
