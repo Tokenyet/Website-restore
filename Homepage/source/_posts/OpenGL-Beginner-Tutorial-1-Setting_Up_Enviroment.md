@@ -15,25 +15,31 @@ tags: [OpenGL,OpenGL教學,OpenGL Tutorial,GLFW,GLEW]
 將GLFW放到任何認為合適的地方，之後再點選VS的專案->屬性，再點選VC++目錄，然後我們主要要變動的有以下兩個，Include目錄與程式庫目錄。
 {% img "/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/VSProperty.png" 600 %}
 設定好Include與Library。
-<div style="display:inline; float:left; padding-right: 5px">
-	{% img "/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glfw_include.png" 420 %}
-</div>
 
-<div style="display:inline; float:left;">
-	{% img "/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glfw_lib.png" 420 %}
+{% raw %}
+<div class="container-outside-div">
+	<div class="container-inside-div">
+		<img src="/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glfw_include.png" style="width: 420px">
+	</div>
+	<div class="container-inside-div">
+		<img src="/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glfw_lib.png" style="width: 420px">
+	</div>
 </div>
-
+{% endraw %}
 
 再來到連結器(Linker) -> 輸入(Input) 去增加lib檔，要新增的有`opengl32`與`glfw3.lib`。
-<div style="float:left;  padding-right: 5px">
-	{% img "/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/input.png" 420 %}
+{% raw %}
+<div class="container-outside-div">
+	<div class="container-inside-div">
+		<img src="/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/input.png" style="width: 420px">
+	</div>
+	<div class="container-inside-div">
+		<img src="/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glfw_input_lib.png" style="width: 350px">
+	</div>
 </div>
+{% endraw %}
 
-<div style="float:left;">
-	{% img "/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glfw_input_lib.png" 350 %}
-</div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## GLEW ##
 [GLEW](http://glew.sourceforge.net/)提供了Modern OpenGL中的各種函式，如果沒有使用GLEW或其他函式庫的人，在撰寫Modern OpenGL的時候就要寫類似這樣的Code。
@@ -51,17 +57,19 @@ if(p == 0 ||
 這樣取得的p代表的就是glGenBuffers的function，這段非常的常用，Modern OpenGL使用了這樣的機制的確是可以利於任何時候或是任何廠商在自己的顯卡驅動中加入新的function，當然沒有兩好，我們在寫的時候會非常得繁瑣，所幸GLEW幫我們解決了這樣的問題，讓我們在使用最新的OpenGL的時候免去不斷向記憶體取得新函式的困擾。
 
 在設定上就像GLFW一樣，要設定三個地方。
-<div style="float:left;  padding-right: 5px">
-	{% img "/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glew_include.png" 420 %}
+{% raw %}
+<div class="container-outside-div">
+	<div class="container-inside-div">
+		<img src="/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glew_include.png" style="width: 420px">
+	</div>
+	<div class="container-inside-div">
+		<img src="/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glew_lib.png" style="width: 420px">
+	</div>
 </div>
-
-<div style="float:left;">
-	{% img "/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glew_lib.png" 420 %}
-</div>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+{% endraw %}
 
 {% img "/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/glew_input.png" 420 %}
+
 
 這樣一切的環境就準備好了。
 
@@ -78,8 +86,8 @@ if(p == 0 ||
 #include <GLFW\glfw3.h>
 ```
 這裡的GLEW_STATIC剛好對應之前的libaray `glew32s.lib`，之所以要用STATIC是因為這樣直接省去需要額外加入dll的部分，dll的部分GLEW把它分開到bin的資料夾內，當然如果讀者想使用動態的方式也無不可。
-static linking: 優點是將整個資訊全部塞進自己的binary檔。
-dynamic linking: 優點是binary小，檔案各自分開乾淨。
+* Static Linking: 優點是將整個資訊全部塞進自己的binary檔。
+* Dynamic Linking: 優點是binary小，檔案各自分開乾淨。
 
 
 ``` cpp
