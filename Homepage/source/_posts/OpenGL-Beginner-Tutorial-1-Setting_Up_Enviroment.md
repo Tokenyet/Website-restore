@@ -54,7 +54,7 @@ if(p == 0 ||
 	p = (void *)GetProcAddress(module, name);
 }
 ```
-這樣取得的p代表的就是glGenBuffers的function，這段非常的常用，Modern OpenGL使用了這樣的機制的確是可以利於任何時候或是任何廠商在自己的顯卡驅動中加入新的function，當然沒有兩好，我們在寫的時候會非常得繁瑣，所幸GLEW幫我們解決了這樣的問題，讓我們在使用最新的OpenGL的時候免去不斷向記憶體取得新函式的困擾。
+在這邊取得的p代表的就是glGenBuffers的function，這段在寫Code上很常使用，Modern OpenGL使用了這樣的機制的優點是利於任何時候或是任何廠商在自己的顯卡驅動中加入新的function，缺點是我們在寫的時候就要每次去向記憶體提取function。所幸GLEW幫我們解決了這樣的問題，讓我們在使用最新的OpenGL時，免去不斷向記憶體取得新函式的手續。
 
 在設定上就像GLFW一樣，要設定三個地方。
 {% raw %}
