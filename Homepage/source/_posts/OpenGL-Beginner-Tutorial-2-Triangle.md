@@ -27,7 +27,7 @@ glCompileShader(vertexShader);
 glCompileShader(fragmentShader);
 ```
 這裡必須先提到 「數字代表物件，物件管理是OpenGL的事」，OpenGL在實作上由於需符合C/C++，所以物件管理的方式是給我們從Create Function中抽一個序號，然後那個序號就是你的物件編號，有這物件編號後，我們必須*妥善保存*，然後在任何需要的時候可以跟OpenGL說要設定/刪除，先來解釋一下上面的例子就會明白。
-首先我們準備了抽序號的物件`vertexShader`然後向`glCreateShader`要求一些東西，而這裡是要求Vertex Shader的命令。之後要設定這個`vertexShader`物件的各種屬性，當然我們看不到是什麼屬性，而是透過將編號(vertexShader)傳給`glShaderSource`進行設定，這裡的設定是將shader的程式碼傳過去設定，可能認為傳程式碼很奇怪，但Shader就是一個給我們程式設計的地方。
+首先我們準備了抽序號的物件`vertexShader`然後向`glCreateShader`要求一些東西，而這裡要求創建Vertex Shader的命令。之後要設定這個`vertexShader`物件的各種屬性，則是透過將編號(vertexShader)傳給OpenGL函式`glShaderSource`進行設定，這裡的設定是將shader的程式碼傳過去設定，可能認為傳程式碼很奇怪，但Shader就是一個給我們程式設計的地方。
 
 _void glShaderSource(GLuint shader, GLsizei count, const GLchar **string, const GLint *length);_
 * 第一個參數指要用哪個Shader物件。
@@ -66,7 +66,7 @@ const GLchar *fragmentShaderSource =
 	"	color = vec4(0.0, 0.0, 1.0, 1.0);\n"
 	"}\n";
 ```
-`vertexShaderSource`跟`fragmentShaderSource`是程式碼，就像寫程式一下要先有Code才能用IDE編譯，而這裡就是Code到時候會丟給OpenGL編譯成一個program如之前的範例，這裡是解釋該如何簡單撰寫一個Shader，根據官方所述，主要是由C下去變形，所以在C的基礎中能做，基本上都可以使用，而一個良好的Shader Code需要標明版本 `#version 450 core` 與進入點 `main` 。 有了之後以上就是最基礎的shader, `gl_Position` 代表的是以NDC空間中的位置，NDC空間簡單解釋就是說到Vertex Shader 這段，未來要做的是將三維空間轉換成NDC空間，未來講MVP矩陣的時候會提到，這裡只要想成Z指向螢幕外,Y是數學所學的上方,X是右方即可，超過1.0跟-1.0會超出螢幕範圍這樣。
+`vertexShaderSource`跟`fragmentShaderSource`是程式碼，就像寫程式一樣要先有Code才能用IDE編譯，而這裡是將Code丟給OpenGL編譯成一個program，如先前的範例。而如何簡單撰寫一個Shader? 根據官方所述，主要是由C下去變形，所以在C的基礎中能做，基本上都可以使用，而一個良好的Shader Code需要標明版本 `#version 450 core` 與進入點 `main` 。 有了之後以上就是最基礎的shader, `gl_Position` 代表的是以NDC空間中的位置，NDC空間簡單解釋就是說到Vertex Shader 這段，未來要做的是將三維空間轉換成NDC空間，未來講MVP矩陣的時候會提到，這裡只要想成Z指向螢幕外,Y是數學所學的上方,X是右方即可，超過1.0跟-1.0會超出螢幕範圍這樣。
 
 ### Vertex Array Object ###
 ``` cpp
@@ -81,7 +81,7 @@ glBindVertexArray(vertexArrayObject);
 glDrawArrays(GL_POINTS, 0, 1);
 glBindVertexArray(0);
 ```
-使用Shader Program然後綁定輸入點(VAO)，VAO的概念算是當你有Shader Program後，`glBindVertexArray`綁定的VAO就會在`glDrawArrays`的時候被傳進Shader。
+使用Shader Program後綁定輸入點(VAO)，VAO的概念算是當你有Shader Program後，`glBindVertexArray`綁定的VAO就會在`glDrawArrays`的時候被傳進Shader。
 
 _void glDrawArrays(GLenum mode, GLint first, GLsizei count)_
 * 第一個代表以何種Primitive(種類)畫你所提供的材料(VAO)。
@@ -105,7 +105,7 @@ Shader shader("shader/basic.vert", "shader/basic.frag");
 ...
 shader.UseProgram(); // in loop
 ```
-至於那兩個檔案其實並不一定要叫`xxx.vert`或`xxx.frag`，不過在OpenGL的開發者中，大部分都這樣命名，而且有Highlight的插件，所以讀者可以考慮習慣看看。
+至於那兩個檔案其實並不一定要叫`xxx.vert`或`xxx.frag`，不過在OpenGL開發者中，大部分都這樣命名，而且有相關[Highlight的插件](https://github.com/samizzo/nshader)，所以讀者可以考慮習慣看看。
 這是[basic.vert](https://github.com/Tokenyet/OpenGL_Basic_Tutorial/blob/master/OpenGL_Basic_Tutorial%20-%201/shader/basic.vert)跟[basic.frag](https://github.com/Tokenyet/OpenGL_Basic_Tutorial/blob/master/OpenGL_Basic_Tutorial%20-%201/shader/basic.frag)的程式碼。
 
 ### 三角形 ###
@@ -125,7 +125,7 @@ void main(void)
 }
 ```
 
-裡面內建的vecX是OpenGL提供你的一個型態，就是所謂的向量，這在shader中這語法稱為glsl，很容易進行數學矩陣與向量的相乘。此外這裡有個新的東西是`gl_VertexID`，這個ID指的是，你在外面繪製命令的時候，是繪製第幾個Vertex的編號。
+裡面內建的vecX是OpenGL提供你的一個型態，就是所謂的向量，這在shader中語法稱為glsl，而且很容易進行數學矩陣與向量的相乘。此外這裡有個新的東西是`gl_VertexID`，這個ID指的是，你在外面使用繪製命令的時候，代表繪製第幾個Vertex的編號。
 
 ``` cpp
 shader.UseProgram();
