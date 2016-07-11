@@ -3,19 +3,19 @@ date: 2016-07-10 23:47:49
 categories: [OpenGL]
 tags: [OpenGL,OpenGL教學,OpenGL Tutorial]
 ---
-## 開始前介紹 ##
-本系列文將使用*OpenGL 4.5*版本，並且以作者能理解的方式進行教學，如有細節那裡誤解或是講錯的部分，或是跳太快應該先講什麼後講什麼的地方，請不吝多多指教！謝謝！
+# 開始前介紹 #
+本系列文將使用*OpenGL 4.5*版本，並以作者能理解的方式教學，如有細節誤解或是講錯的部分，或跳太快應先講什麼後講什麼的地方，請不吝多多指教！謝謝！
 
-## 從點開始 ##
-要畫一個三角形之前，總要會在畫面上繪出一個點來，在那之前，由於使用的是Modern版的OpenGL，所以凡事都要要求的有兩個東西，其中一個是*「Vertex Array Object」*，簡稱*VAO*，另一個則是Shader，其中包含基礎的兩個稱為Vertex Shader與Fragment Shader。
+# 從點開始 #
+要畫一個三角形之前，總要會在畫面上畫出一個點來。在那之前，由於使用的是Modern版OpenGL，所以做任何事都要準備兩個東西，其中一個是*「Vertex Array Object」*，簡稱*VAO*，另一個則是Shader，包含基礎的兩個稱為Vertex Shader與Fragment Shader。
 
-* Shader: 其實並不只有Vertex Shader與Fragment Shader，還有Geomerty Shader、Tessellation Control Shader、Tessellation Evaluation Shader，由於屬於初階文章，所以其他的暫不探討。而Shader其中必寫的其實只有Fragment就好，本文不討論這部分。
+* Shader: 其實並不只有Vertex Shader與Fragment Shader，還有Geomerty Shader、Tessellation Control Shader、Tessellation Evaluation Shader，由於屬於初階文章，所以暫不探討。而Shader其中必寫的其實只有Fragment就好，詳細請上網考查。
 
-首先在了解繪一個點需要看起來很多的東西時，會認為很繁瑣。當深入一點後，將了解僅是一連串常用的手續，以後只要複製貼上加修改。而這裡就先示意部分的OpenGL pipeline，也就是讀者目前為止會碰到的pipeline，倘若一次列出全部流程，會猶豫一陣子。
+首先在了解畫一個點需要準備貌似很多東西時，會認為很繁瑣。當深入一點後，將了解僅是一連串常用的手續，以後只要複製貼上加修改。而這裡就先示意部分的OpenGL pipeline，也就是讀者將碰到的pipeline，倘若一次列出全部流程，會猶豫一陣子。
 {% img "/images/OBT2/opengl_easy_pipeline.png" 600 %}
 上方的流程是說明，使用者可以*以某種方式*將一些資料傳給Vertex Shader，本文章目前不會先做傳資料的動作，先給一個小概念。 而傳完之後Vertex Shader仍會以*某種方式*將資料傳給流程中的下一個Shader，就是Fragment Shader，最後Fragment Shader 跑完之後會將圖片輸出到螢幕上。
 
-理解到OpenGL流程的基礎後，接下來就是從實作中學習，如果沒有環境的讀者可以參考[上篇](/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment)中的Code來建立基礎環境。
+理解到OpenGL基礎流程後，接下來就是從實作中學習，如果沒有環境的讀者可以參考[上篇](/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment)中的Code來建立基礎環境。
 
 ### 為OpenGL搭起一個Shader的介面 ###
 ``` cpp
@@ -26,8 +26,8 @@ glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
 glCompileShader(vertexShader);
 glCompileShader(fragmentShader);
 ```
-「數字代表物件，物件管理是OpenGL的事」，這裡必須先提到，OpenGL在實作上由於需符合C/C++，所以物件管理的方式是給我們從Create Function中抽一個序號，然後那個序號就是你的物件編號，有這物件編號後，我們必須*妥善保存*，然後在任何需要的時候可以跟OpenGL說要設定/刪除，先來解釋一下上面的例子就會明白。
-首先我們準備了抽序號的物件`vertexShader`然後向`glCreateShader`要求一些東西，而這裡是要求Vertex Shader的命令。之後要設定這個`vertexShader`物件的各種屬性，當然我們看不到是什麼屬性，而是透過將編號(vertexShader)傳給`glShaderSource`進行設定，這裡的設定是將shader的程式碼傳過去設定，不要想傳程式碼很奇怪，因為Shader就是一個給我們程式設計的地方。
+這裡必須先提到 「數字代表物件，物件管理是OpenGL的事」，OpenGL在實作上由於需符合C/C++，所以物件管理的方式是給我們從Create Function中抽一個序號，然後那個序號就是你的物件編號，有這物件編號後，我們必須*妥善保存*，然後在任何需要的時候可以跟OpenGL說要設定/刪除，先來解釋一下上面的例子就會明白。
+首先我們準備了抽序號的物件`vertexShader`然後向`glCreateShader`要求一些東西，而這裡是要求Vertex Shader的命令。之後要設定這個`vertexShader`物件的各種屬性，當然我們看不到是什麼屬性，而是透過將編號(vertexShader)傳給`glShaderSource`進行設定，這裡的設定是將shader的程式碼傳過去設定，可能認為傳程式碼很奇怪，但Shader就是一個給我們程式設計的地方。
 
 _void glShaderSource(GLuint shader, GLsizei count, const GLchar **string, const GLint *length);_
 * 第一個參數指要用哪個Shader物件。
@@ -108,6 +108,7 @@ shader.UseProgram(); // in loop
 至於那兩個檔案其實並不一定要叫`xxx.vert`或`xxx.frag`，不過在OpenGL的開發者中，大部分都這樣命名，而且有Highlight的插件，所以讀者可以考慮習慣看看。
 這是[basic.vert](https://github.com/Tokenyet/OpenGL_Basic_Tutorial/blob/master/OpenGL_Basic_Tutorial%20-%201/shader/basic.vert)跟[basic.frag](https://github.com/Tokenyet/OpenGL_Basic_Tutorial/blob/master/OpenGL_Basic_Tutorial%20-%201/shader/basic.frag)的程式碼。
 
+### 三角形 ###
 接下來，正式要畫一個三角形，不過我們先用不正式的畫法，到下篇文章再慢慢推進Shader(GPU)與CPU的互動。
 
 將 basic.vert 修改成以下。
