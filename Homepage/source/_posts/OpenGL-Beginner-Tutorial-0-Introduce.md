@@ -1,7 +1,7 @@
-title: "OpenGL Beginner Tutorial 0: Introduce"
+title: "OpenGL 入門教學 0: Introduce"
 date: 2016-06-28 21:36:47
 categories: [OpenGL]
-tags: [OpenGL,OpenGL教學,OpenGL Tutorial]
+tags: [OpenGL, OpenGL教學, OpenGL入門教學, OpenGL Tutorial, OpenGL Extension, OpenGL intro]
 ---
 ## 前言: ##
 不管開始任何事情之前，必須先對要做的事情先有個了解才能開始，學習OpenGL也不例外。開始前，先說一下我做教學文的風格，由於這是我以一個學中教，教中學的角度來製作，所以可能會有些不精確，希望哪裡有錯誤可以幫忙改正或指教，謝謝。

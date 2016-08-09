@@ -1,12 +1,12 @@
-title: "OpenGL Beginner Tutorial 2: Strat With Triangle"
+title: "OpenGL 入門教學 2: Strat With Triangle"
 date: 2016-07-10 23:47:49
 categories: [OpenGL]
-tags: [OpenGL,OpenGL教學,OpenGL Tutorial]
+tags: [OpenGL, OpenGL教學, OpenGL入門教學, OpenGL Tutorial, OpenGL介紹, Shader, OpenGL基礎, VAO, Triangle]
 ---
-# 開始前介紹 #
+## 開始前介紹 ##
 本系列文將使用*OpenGL 4.5*版本，並以作者能理解的方式教學，如有細節誤解或是講錯的部分，或跳太快應先講什麼後講什麼的地方，請不吝多多指教！謝謝！
 
-# 從點開始 #
+## 從點開始 ##
 要畫一個三角形之前，總要會在畫面上畫出一個點來。在那之前，由於使用的是Modern版OpenGL，所以做任何事都要準備兩個東西，其中一個是*「Vertex Array Object」*，簡稱*VAO*，另一個則是Shader，包含基礎的兩個稱為Vertex Shader與Fragment Shader。
 
 * Shader: 其實並不只有Vertex Shader與Fragment Shader，還有Geomerty Shader、Tessellation Control Shader、Tessellation Evaluation Shader，由於屬於初階文章，所以暫不探討。而Shader其中必寫的其實只有Fragment就好，詳細請上網考查。

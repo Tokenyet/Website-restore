@@ -1,7 +1,7 @@
-title: "OpenGL Beginner Tutorial 1: Setting up Environment"
+title: "OpenGL 入門教學 1: Setting up Environment"
 date: 2016-07-05 19:14:47
 categories: [OpenGL]
-tags: [OpenGL,OpenGL教學,OpenGL Tutorial,GLFW,GLEW]
+tags: [OpenGL, OpenGL教學, OpenGL入門教學, OpenGL Tutorial, GLFW, GLEW, OpenGL安裝, Visual Studio]
 ---
 ## 環境準備 ##
 開始之前還是要先講一下，讀者可以選擇各種不同的 Framework 與 Library ，像是SDL,FREEGLUT,GLFW之類的，不過不管選擇哪一種，主要的OpenGL流程都是一樣的，只是有些不同的Code或Lib必須要在官方網站自行去看，本篇要講的是GLFW+GLEW在Visual Stuido 2015中的環境建置，如果不是來建置環境的讀者可以跳過本篇，或是對GLFW與GLEW有興趣再往下閱讀。

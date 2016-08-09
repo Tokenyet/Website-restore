@@ -1,0 +1,1451 @@
+<svg version="1.1" x="0" y="0" id="irgepzt8" diagram-revision="-1" width="885" height="159.14999999999998" xmlns="http://www.w3.org/2000/svg" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="irgduob4-ko16" transform="translate(60,5)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="190" height="20" transform="translate(5,7)">
+      <tspan x="44.75" y="14.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">Vertex Attribute</tspan>
+    </text>
+  </g>
+  <g id="irgdv3nr-ko18" transform="translate(260,5)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="190" height="20" transform="translate(5,7)">
+      <tspan x="45.8" y="14.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">Vertex Attribute</tspan>
+    </text>
+  </g>
+  <g id="irgeac6s-ko36" transform="translate(160,40)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image" transform="scale(0.2500995993614197,1)">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="48" height="20" transform="translate(1.25,7)">
+      <tspan x="19.5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">Z</tspan>
+    </text>
+  </g>
+  <g id="irgeam8l-ko40" transform="translate(110,40)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image" transform="scale(0.2500995993614197,1)">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="48" height="20" transform="translate(1.25,7)">
+      <tspan x="19.35" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">Y</tspan>
+    </text>
+  </g>
+  <g id="irgeapov-ko42" transform="translate(60,40)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image" transform="scale(0.2500995993614197,1)">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="48" height="20" transform="translate(1.25,7)">
+      <tspan x="19.2" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">X</tspan>
+    </text>
+  </g>
+  <g id="irgeasri-ko44" transform="translate(210,40)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image" transform="scale(0.2500995993614197,1)">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="48" height="20" transform="translate(1.25,7)">
+      <tspan x="16.5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">W</tspan>
+    </text>
+  </g>
+  <g id="irgeav7r-ko46" transform="translate(260,40)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image" transform="scale(0.32504940032958984,1)">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="62" height="20" transform="translate(1.6,7)">
+      <tspan x="26.45" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">R</tspan>
+    </text>
+  </g>
+  <g id="irgebi42-ko56" transform="translate(325,40)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image" transform="scale(0.32504940032958984,1)">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="62" height="20" transform="translate(1.6,7)">
+      <tspan x="25.75" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">G</tspan>
+    </text>
+  </g>
+  <g id="irgebjvk-ko58" transform="translate(390,40)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image" transform="scale(0.3500541150569916,1.0000025033950806)">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="66.5" height="20" transform="translate(1.75,7)">
+      <tspan x="28.7" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">B</tspan>
+    </text>
+  </g>
+  <g id="irgeh1wp-ko23" transform="translate(459.70000000000005,5.2999999999999545)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="190" height="20" transform="translate(5,7)">
+      <tspan x="44.75" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">Vertex Attribute</tspan>
+    </text>
+  </g>
+  <g id="irgeh1wp-ko16" transform="translate(659.8,5.399999999999977)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="190" height="20" transform="translate(5,7)">
+      <tspan x="45.8" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">Vertex Attribute</tspan>
+    </text>
+  </g>
+  <g id="irgeh1wp-ko22" transform="translate(559.7,40.299999999999955)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image" transform="scale(0.2500995993614197,1)">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="48" height="20" transform="translate(1.25,7)">
+      <tspan x="19.5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">Z</tspan>
+    </text>
+  </g>
+  <g id="irgeh1wp-ko18" transform="translate(509.70000000000005,40.299999999999955)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image" transform="scale(0.2500995993614197,1)">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="48" height="20" transform="translate(1.25,7)">
+      <tspan x="19.35" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">Y</tspan>
+    </text>
+  </g>
+  <g id="irgeh1wp-ko20" transform="translate(459.70000000000005,40.299999999999955)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image" transform="scale(0.2500995993614197,1)">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="48" height="20" transform="translate(1.25,7)">
+      <tspan x="19.2" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">X</tspan>
+    </text>
+  </g>
+  <g id="irgeh1wp-ko17" transform="translate(609.7,40.299999999999955)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image" transform="scale(0.2500995993614197,1)">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="48" height="20" transform="translate(1.25,7)">
+      <tspan x="16.5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">W</tspan>
+    </text>
+  </g>
+  <g id="irgeh1wp-ko24" transform="translate(659.7,40.299999999999955)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image" transform="scale(0.32504940032958984,1)">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="62" height="20" transform="translate(1.6,7)">
+      <tspan x="26.45" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">R</tspan>
+    </text>
+  </g>
+  <g id="irgeh1wp-ko21" transform="translate(724.6,40.299999999999955)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image" transform="scale(0.32504940032958984,1)">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="62" height="20" transform="translate(1.6,7)">
+      <tspan x="25.75" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">G</tspan>
+    </text>
+  </g>
+  <g id="irgeh1wp-ko19" transform="translate(790,40)">
+    <desc>root/dfd/dataStore?version=2&amp;author=Cinergix</desc>
+    <g id="image" transform="scale(0.3500541150569916,1.0000025033950806)">
+      <g>
+        <polyline vector-effect="non-scaling-stroke" fill="#ffffff" stroke="#03c9a9" points="200,0 0,0 0,35 200,35 &#x9;" style="stroke-width:1.5;stroke:#03c9a9;fill:#ffffff;" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="0" width="66.5" height="20" transform="translate(1.75,7)">
+      <tspan x="28.7" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#000000;">B</tspan>
+    </text>
+  </g>
+  <g id="irgeh1ws-ko25" transform="translate(-165,-615)">
+    <g id="graphics">
+      <path d="M 1025.07142857143 620.2619047619045 L 1025.07142857143 690.2619047619045 " fill="none" stroke="#03c9a9" stroke-width="1.5"/>
+    </g>
+  </g>
+  <g id="TextBox-irgekk1s-ko53" transform="translate(0,80)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="38.7" height="40.75" transform="translate(5.65,5.35)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">Byte</tspan>
+    </text>
+  </g>
+  <g id="irgekylk-ko55" transform="translate(35,78.5)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="18.1" height="40.75" transform="translate(15.95,11.25)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">0</tspan>
+    </text>
+  </g>
+  <g id="irgela3x-ko57" transform="translate(85,75.04999999999995)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="22.1" height="25.75" transform="translate(13.9,14.55)">
+      <tspan x="7" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">4</tspan>
+    </text>
+  </g>
+  <g id="irgeldo0-ko59" transform="translate(135,81.29999999999995)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="18.1" height="40.75" transform="translate(15.9,8.95)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">8</tspan>
+    </text>
+  </g>
+  <g id="irgelg7l-ko61" transform="translate(185,75)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="26.25" height="21.75" transform="translate(11.85,14.85)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">12</tspan>
+    </text>
+  </g>
+  <g id="irgelmnb-ko63" transform="translate(235,75)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="26.25" height="21.75" transform="translate(11.85,14.85)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">16</tspan>
+    </text>
+  </g>
+  <g id="irgelpmi-ko65" transform="translate(300,75)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="26.25" height="21.75" transform="translate(11.85,14.85)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">20</tspan>
+    </text>
+  </g>
+  <g id="irgels6o-ko67" transform="translate(365,75)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="26.25" height="21.75" transform="translate(11.85,14.85)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">22</tspan>
+    </text>
+  </g>
+  <g id="irgelv3j-ko69" transform="translate(435,75)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="26.25" height="21.75" transform="translate(11.85,14.85)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">24</tspan>
+    </text>
+  </g>
+  <g id="irgely8h-ko71" transform="translate(485,75)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="26.25" height="21.75" transform="translate(11.85,14.85)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">28</tspan>
+    </text>
+  </g>
+  <g id="irgem1b4-ko73" transform="translate(535,75)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="26.25" height="21.75" transform="translate(11.85,14.85)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">32</tspan>
+    </text>
+  </g>
+  <g id="irgem2md-ko75" transform="translate(585,75)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="26.25" height="21.75" transform="translate(11.85,14.85)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">36</tspan>
+    </text>
+  </g>
+  <g id="irgem9l5-ko77" transform="translate(635,75)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="26.25" height="21.75" transform="translate(11.85,14.85)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">40</tspan>
+    </text>
+  </g>
+  <g id="irgembw4-ko79" transform="translate(700,75)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="26.25" height="21.75" transform="translate(11.85,14.85)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">44</tspan>
+    </text>
+  </g>
+  <g id="irgemfzv-ko81" transform="translate(765,75)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="26.25" height="21.75" transform="translate(11.85,14.85)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">48</tspan>
+    </text>
+  </g>
+  <g id="irgemsy1-ko83" transform="translate(835,75)">
+    <desc>root/textControl?version=&amp;author=</desc>
+    <g id="image"/>
+    <text x="0" y="0" width="26.25" height="21.75" transform="translate(11.85,14.85)">
+      <tspan x="5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">52</tspan>
+    </text>
+  </g>
+  <g id="Connector-irgf8z3x-ko157" transform="translate(-165,-615)">
+    <g id="graphics">
+      <path d="M 225 735 L 625 735 " fill="none" stroke="#a0a0a0" stroke-width="1.5" mask="url(#TextboxMask-Connector-irgf8z3x-ko157)"/>
+    </g>
+    <g id="fromIcon" transform="translate(225,735) rotate(-90)">
+      <metadata id="metadata3217">
+        <aaa:RDF xmlns:aaa="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+      </metadata>
+      <aaa:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" aab:pageopacity="0" aab:pageshadow="2" aab:window-width="1366" aab:window-height="706" id="namedview3213" showgrid="true" aab:zoom="64" aab:cx="-2.7603221" aab:cy="2.2058776" aab:window-x="-8" aab:window-y="-8" aab:window-maximized="1" aab:current-layer="Layer_1" xmlns:aaa="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:aab="http://www.inkscape.org/namespaces/inkscape"/>
+      <polygon stroke-miterlimit="6" points="8,8.001 0,0 -8,8.001 0.021,4.669 " id="polygon3211" style="stroke-miterlimit:6;stroke-width:1.5;stroke:#a0a0a0;fill:#a0a0a0;" transform="translate(0.00390625,0.72653095)" stroke="#a0a0a0" stroke-width="1.5" fill="#a0a0a0"/>
+    </g>
+    <g id="toIcon" transform="translate(625,735) rotate(90)">
+      <metadata id="metadata3217">
+        <aaa:RDF xmlns:aaa="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+      </metadata>
+      <aaa:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" aab:pageopacity="0" aab:pageshadow="2" aab:window-width="1366" aab:window-height="706" id="namedview3213" showgrid="true" aab:zoom="64" aab:cx="-2.7603221" aab:cy="2.2058776" aab:window-x="-8" aab:window-y="-8" aab:window-maximized="1" aab:current-layer="Layer_1" xmlns:aaa="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:aab="http://www.inkscape.org/namespaces/inkscape"/>
+      <polygon stroke-miterlimit="6" points="8,8.001 0,0 -8,8.001 0.021,4.669 " id="polygon3211" style="stroke-miterlimit:6;stroke-width:1.5;stroke:#a0a0a0;fill:#a0a0a0;" transform="translate(0.00390625,0.72653095)" stroke="#a0a0a0" stroke-width="1.5" fill="#a0a0a0"/>
+    </g>
+    <text x="0" y="0" width="45.3" height="25.75" transform="translate(402.35,722.1)">
+      <tspan x="4.5" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">Stride</tspan>
+    </text>
+    <mask id="TextboxMask-Connector-irgf8z3x-ko157">
+      <rect x="0" y="0" width="1500" height="1500" style="fill:white;"/>
+      <rect x="0" y="0" width="45.3" height="25.75" transform="translate(402.35,722.1)"/>
+    </mask>
+  </g>
+  <g id="Connector-irgfbwrj-ko160" transform="translate(-165,-615)">
+    <g id="graphics">
+      <path d="M 225 750 Q 232 768 260 765 Q 337.0990421152038 756.7393883447996 415 770 Q 425.94221998778244 771.8626283147678 427.675 751.775 " fill="none" stroke="#a0a0a0" stroke-width="1.5" mask="url(#TextboxMask-Connector-irgfbwrj-ko160)"/>
+    </g>
+    <g id="toIcon" transform="translate(427.65,751.75) rotate(4.930190097064615)">
+      <metadata id="metadata3217">
+        <aaa:RDF xmlns:aaa="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+      </metadata>
+      <aaa:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" aab:pageopacity="0" aab:pageshadow="2" aab:window-width="1366" aab:window-height="706" id="namedview3213" showgrid="true" aab:zoom="64" aab:cx="-2.7603221" aab:cy="2.2058776" aab:window-x="-8" aab:window-y="-8" aab:window-maximized="1" aab:current-layer="Layer_1" xmlns:aaa="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:aab="http://www.inkscape.org/namespaces/inkscape"/>
+      <polygon stroke-miterlimit="6" points="8,8.001 0,0 -8,8.001 0.021,4.669 " id="polygon3211" style="stroke-miterlimit:6;stroke-width:1.5;stroke:#a0a0a0;fill:#a0a0a0;" transform="translate(0.00390625,0.72653095)" stroke="#a0a0a0" stroke-width="1.5" fill="#a0a0a0"/>
+    </g>
+    <text x="0" y="0" width="45.75" height="25.75" transform="translate(306.4,749)">
+      <tspan x="4.95" y="15.920019531249999" style="font-family:Lato;font-size:14px;fill:#4b4b4b;">offset</tspan>
+    </text>
+    <mask id="TextboxMask-Connector-irgfbwrj-ko160">
+      <rect x="0" y="0" width="1500" height="1500" style="fill:white;"/>
+      <rect x="0" y="0" width="45.75" height="25.75" transform="translate(306.4,749)"/>
+    </mask>
+  </g>
+  <creately-doc id="irgepzt8" format-version="1.0" owner-name="" revision="0" updated-user="Dowen Den" sync="false" projectid="piqhpzgz4">
+    <revisionUserId>PHPF73BA-A9B6-CFAA-BD4C-E8D347FBA91C</revisionUserId>
+    <embedHash/>
+    <canvas-width>1500</canvas-width>
+    <date-updated>Thu Aug 4 2016 10:40:44 PM</date-updated>
+    <canvas-height>1500</canvas-height>
+    <published>false</published>
+    <comments/>
+    <creator/>
+    <dtLastEdit>LAST_EDIT_AUTO</dtLastEdit>
+    <date-created>Thu Aug 4 2016 10:40:44 PM</date-created>
+    <docname>VBO</docname>
+    <kodefs/>
+    <diagramTypeId>data-flow</diagramTypeId>
+    <resources/>
+    <save-comments/>
+    <editHash/>
+    <objects>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="31" name="" visible="true" id="irgem9l5-ko77">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>40</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="2" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="690" width="50" height="51.5" scale-x="1" scale-y="1.1256830601092895" x="800">
+          <matrix tx="0" a="0.3333711624145508" ty="0" b="0" c="0" d="1.3918914794921875"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="12" name="" visible="true" id="irgeh1wp-ko18">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>Y</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="655.3" width="50.019919872283936" height="35" scale-x="1" scale-y="1" x="674.7">
+          <matrix tx="0" a="0.2500995993614197" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="Y" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="34" name="" visible="true" id="irgemsy1-ko83">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>52</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="2" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="690" width="50" height="51.5" scale-x="1" scale-y="1.1256830601092895" x="1000">
+          <matrix tx="0" a="0.3333711624145508" ty="0" b="0" c="0" d="1.3918914794921875"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="26" name="" visible="true" id="irgels6o-ko67">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>22</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="2" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="690" width="50" height="51.5" scale-x="1" scale-y="1.1256830601092895" x="530">
+          <matrix tx="0" a="0.3333711624145508" ty="0" b="0" c="0" d="1.3918914794921875"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="11" name="" visible="true" id="irgeh1wp-ko22">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>Z</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="655.3" width="50.019919872283936" height="35" scale-x="1" scale-y="1" x="724.7">
+          <matrix tx="0" a="0.2500995993614197" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="Z" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="21" name="" visible="true" id="irgela3x-ko57">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>4</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="690.05" width="50" height="54.95" scale-x="1" scale-y="1.2211111111111113" x="250">
+          <matrix tx="0" a="0.3333282470703125" ty="0" b="0" c="0" d="1.4844684600830078"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="7" name="" visible="true" id="irgebi42-ko56">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>G</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="655" width="65.00988006591797" height="35" scale-x="1" scale-y="1" x="490">
+          <matrix tx="0" a="0.32504940032958984" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="G" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="6" name="" visible="true" id="irgeav7r-ko46">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>R</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="655" width="65.00988006591797" height="35" scale-x="1" scale-y="1" x="425">
+          <matrix tx="0" a="0.32504940032958984" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="R" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="14" name="" visible="true" id="irgeh1wp-ko17">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>W</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="655.3" width="50.019919872283936" height="35" scale-x="1" scale-y="1" x="774.7">
+          <matrix tx="0" a="0.2500995993614197" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="W" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="8" name="" visible="true" id="irgebjvk-ko58">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>B</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="655" width="70.01082301139832" height="35.00008761882782" scale-x="1" scale-y="1.0000025033950806" x="555">
+          <matrix tx="0" a="0.3500541150569916" ty="0" b="0" c="0" d="1.0000025033950806"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="B" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="23" name="" visible="true" id="irgelg7l-ko61">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>12</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="2" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="690" width="50" height="51.5" scale-x="1" scale-y="1.1256830601092895" x="350">
+          <matrix tx="0" a="0.3333711624145508" ty="0" b="0" c="0" d="1.3918914794921875"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="20" name="" visible="true" id="irgekylk-ko55">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>0(~!nl!~)</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="2" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="693.5" width="50" height="63.35" scale-x="1" scale-y="1.0558333333333334" x="200">
+          <matrix tx="0" a="0.3333711624145508" ty="0" b="0" c="0" d="1.712161660194397"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="25" name="" visible="true" id="irgelpmi-ko65">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>20</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="2" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="690" width="50" height="51.5" scale-x="1" scale-y="1.1256830601092895" x="465">
+          <matrix tx="0" a="0.3333711624145508" ty="0" b="0" c="0" d="1.3918914794921875"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="9" name="" visible="true" id="irgeh1wp-ko23">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>Vertex Attribute</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="16" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="620.3" width="200" height="35" scale-x="1" scale-y="1" x="624.7">
+          <matrix tx="0" a="1" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="Vertex Attribute" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="16" name="" visible="true" id="irgeh1wp-ko21">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>G</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="655.3" width="65.00988006591797" height="35" scale-x="1" scale-y="1" x="889.6">
+          <matrix tx="0" a="0.32504940032958984" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="G" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="4" name="" visible="true" id="irgeapov-ko42">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>X</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="655" width="50.019919872283936" height="35" scale-x="1" scale-y="1" x="225">
+          <matrix tx="0" a="0.2500995993614197" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="X" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="5" name="" visible="true" id="irgeasri-ko44">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>W</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="655" width="50.019919872283936" height="35" scale-x="1" scale-y="1" x="375">
+          <matrix tx="0" a="0.2500995993614197" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="W" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="19" name="" visible="true" id="TextBox-irgekk1s-ko53">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>Byte(~!nl!~)</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="5" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="695" width="50" height="51.5" scale-x="1" scale-y="1" x="165">
+          <matrix tx="0" a="0.3333711624145508" ty="0" b="0" c="0" d="1.3918914794921875"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="13" name="" visible="true" id="irgeh1wp-ko20">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>X</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="655.3" width="50.019919872283936" height="35" scale-x="1" scale-y="1" x="624.7">
+          <matrix tx="0" a="0.2500995993614197" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="X" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="32" name="" visible="true" id="irgembw4-ko79">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>44</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="2" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="690" width="50" height="51.5" scale-x="1" scale-y="1.1256830601092895" x="865">
+          <matrix tx="0" a="0.3333711624145508" ty="0" b="0" c="0" d="1.3918914794921875"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="2" name="" visible="true" id="irgeac6s-ko36">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>Z</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="655" width="50.019919872283936" height="35" scale-x="1" scale-y="1" x="325">
+          <matrix tx="0" a="0.2500995993614197" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="Z" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="0" name="" visible="true" id="irgduob4-ko16">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>Vertex Attribute</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="16" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="620" width="200" height="35" scale-x="1" scale-y="1" x="225">
+          <matrix tx="0" a="1" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="Vertex Attribute" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="17" name="" visible="true" id="irgeh1wp-ko19">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>B</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="655" width="70.01082301139832" height="35.00008761882782" scale-x="1" scale-y="1.0000025033950806" x="955">
+          <matrix tx="0" a="0.3500541150569916" ty="0" b="0" c="0" d="1.0000025033950806"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="B" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="33" name="" visible="true" id="irgemfzv-ko81">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>48</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="2" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="690" width="50" height="51.5" scale-x="1" scale-y="1.1256830601092895" x="930">
+          <matrix tx="0" a="0.3333711624145508" ty="0" b="0" c="0" d="1.3918914794921875"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="10" name="" visible="true" id="irgeh1wp-ko16">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>Vertex Attribute</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="true" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="16" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="620.4" width="200" height="35" scale-x="1" scale-y="1" x="824.8">
+          <matrix tx="0" a="1" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="Vertex Attribute" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="1" name="" visible="true" id="irgdv3nr-ko18">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>Vertex Attribute</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="true" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="16" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="620" width="200" height="35" scale-x="1" scale-y="1" x="425">
+          <matrix tx="0" a="1" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="Vertex Attribute" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="3" name="" visible="true" id="irgeam8l-ko40">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>Y</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="655" width="50.019919872283936" height="35" scale-x="1" scale-y="1" x="275">
+          <matrix tx="0" a="0.2500995993614197" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="Y" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="24" name="" visible="true" id="irgelmnb-ko63">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>16</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="2" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="690" width="50" height="51.5" scale-x="1" scale-y="1.1256830601092895" x="400">
+          <matrix tx="0" a="0.3333711624145508" ty="0" b="0" c="0" d="1.3918914794921875"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="29" name="" visible="true" id="irgem1b4-ko73">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>32</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="2" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="690" width="50" height="51.5" scale-x="1" scale-y="1.1256830601092895" x="700">
+          <matrix tx="0" a="0.3333711624145508" ty="0" b="0" c="0" d="1.3918914794921875"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="27" name="" visible="true" id="irgelv3j-ko69">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>24</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="2" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="690" width="50" height="51.5" scale-x="1" scale-y="1.1256830601092895" x="600">
+          <matrix tx="0" a="0.3333711624145508" ty="0" b="0" c="0" d="1.3918914794921875"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="NORMAL" zorder="15" name="" visible="true" id="irgeh1wp-ko24">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="descriptionLabel">
+          <content>R</content>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="0" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="1" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="GRADIENT_FILL_SOLID" line-color="248233" fill-color="16777215" line-style="" alpha="1" line-thickness="1.5" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="655.3" width="65.00988006591797" height="35" scale-x="1" scale-y="1" x="824.7">
+          <matrix tx="0" a="0.32504940032958984" ty="0" b="0" c="0" d="1"/>
+          <default-bounds y="0" width="200" height="35" x="0"/>
+        </dimension>
+        <kobject-def-id>root/dfd/dataStore?version=2&amp;author=Cinergix</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+          <data-item value="0" type="" name="isInCircuit"/>
+          <data-item value="R" type="" name="Description"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="22" name="" visible="true" id="irgeldo0-ko59">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>8(~!nl!~)</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="2" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="696.3" width="50" height="58.7" scale-x="1" scale-y="0.9783333333333334" x="300">
+          <matrix tx="0" a="0.3333282470703125" ty="0" b="0" c="0" d="1.5858598947525024"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="28" name="" visible="true" id="irgely8h-ko71">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>28</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="2" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="690" width="50" height="51.5" scale-x="1" scale-y="1.1256830601092895" x="650">
+          <matrix tx="0" a="0.3333711624145508" ty="0" b="0" c="0" d="1.3918914794921875"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+      <object model-type="NORMAL" locked="false" type="TEXT" zorder="30" name="" visible="true" id="irgem2md-ko75">
+        <collapse expanded-y-pos="NaN" collapsed-height="NaN" expanded-height="NaN" collapsed="false" expanded-width="NaN" collapsed-width="NaN" collapsed-y-pos="NaN" collapsed-x-pos="NaN" expanded-x-pos="NaN"/>
+        <text text-rotation="NaN" wrapping="true" position="CENTRE">
+          <content>36</content>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="2" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <style fill-gradient="" line-color="268435455" fill-color="268435455" line-style="" alpha="1" line-thickness="NaN" fill="true"/>
+        <group-id/>
+        <children/>
+        <comments/>
+        <dimension angle="0" y="690" width="50" height="51.5" scale-x="1" scale-y="1.1256830601092895" x="750">
+          <matrix tx="0" a="0.3333711624145508" ty="0" b="0" c="0" d="1.3918914794921875"/>
+          <default-bounds y="0" width="150" height="37" x="0"/>
+        </dimension>
+        <kobject-def-id>root/textControl?version=&amp;author=</kobject-def-id>
+        <container-id/>
+        <libraries/>
+        <data-items>
+          <data-item value="" type="" name="DiagramLinkURL"/>
+        </data-items>
+      </object>
+    </objects>
+    <viewHash/>
+    <inSync>false</inSync>
+    <tags>other,none,more,business,pest,ansoff,value chain</tags>
+    <description>vbo</description>
+    <notes/>
+    <revision-user>terryden5566@yahoo.com.tw</revision-user>
+    <save-type/>
+    <app-version/>
+    <connectors>
+      <connector model-type="LINE" bi-directional="false" zorder="18" id="irgeh1ws-ko25" end-point-one-y="620.2619047619045" end-point-one-x="1025.07142857143" end-point-two-y="690.2619047619045" end-point-two-x="1025.07142857143" show-obj-one-img="false" show-obj-two-img="false">
+        <connection-name/>
+        <isLocked>false</isLocked>
+        <object-two-id/>
+        <object-one-id/>
+        <comments/>
+        <anchPntIDObjTwo/>
+        <anchorsCustomized>false</anchorsCustomized>
+        <isVisible>false</isVisible>
+        <ownerDiagID>irgepzt8</ownerDiagID>
+        <text text-rotation="NaN" wrapping="false" position="CONNECTOR_PATH_CENTER">
+          <content/>
+          <text-formats>
+            <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="-1" italic="false" size="14" begin-index="-1" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <connection-def-id/>
+        <connection-desc/>
+        <group-id/>
+        <text-data-list>
+          <line-text isPrimary="true" location="0.5" id="irgeq0os-tf6" position="">
+            <text/>
+            <text-formats>
+              <text-format leading="0" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="-1" italic="false" size="14" begin-index="-1" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+                <target/>
+                <url/>
+              </text-format>
+            </text-formats>
+          </line-text>
+        </text-data-list>
+        <fromIconSource/>
+        <compatibleConnDefs/>
+        <drawStyle>1</drawStyle>
+        <anchPntIDObjOne/>
+        <style line-color="248233" line-style="" alpha="NaN" line-thickness="1.5"/>
+        <toIconSource/>
+        <anchor-points/>
+      </connector>
+      <connector model-type="LINE" bi-directional="false" zorder="35" id="Connector-irgf8z3x-ko157" end-point-one-y="735" end-point-one-x="225" end-point-two-y="735" end-point-two-x="625" show-obj-one-img="false" show-obj-two-img="false">
+        <connection-name/>
+        <isLocked>false</isLocked>
+        <object-two-id/>
+        <object-one-id/>
+        <comments/>
+        <anchPntIDObjTwo/>
+        <anchorsCustomized>false</anchorsCustomized>
+        <isVisible>false</isVisible>
+        <ownerDiagID>irgepzt8</ownerDiagID>
+        <text text-rotation="NaN" wrapping="false" position="">
+          <content/>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="6" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <connection-def-id/>
+        <connection-desc/>
+        <group-id/>
+        <text-data-list>
+          <line-text isPrimary="true" location="0.5" id="irgf8z3y-tf7" position="">
+            <text>Stride</text>
+            <text-formats>
+              <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="6" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+                <target/>
+                <url/>
+              </text-format>
+            </text-formats>
+          </line-text>
+        </text-data-list>
+        <fromIconSource>ArrowHead5</fromIconSource>
+        <compatibleConnDefs/>
+        <drawStyle>1</drawStyle>
+        <anchPntIDObjOne/>
+        <style line-color="10526880" line-style="LINESTYLE_NAME_SOLID" alpha="NaN" line-thickness="1.5"/>
+        <toIconSource>ArrowHead5</toIconSource>
+        <anchor-points/>
+      </connector>
+      <connector model-type="LINE" bi-directional="false" zorder="36" id="Connector-irgfbwrj-ko160" end-point-one-y="750" end-point-one-x="225" end-point-two-y="751.775" end-point-two-x="427.675" show-obj-one-img="false" show-obj-two-img="false">
+        <connection-name/>
+        <isLocked>false</isLocked>
+        <object-two-id/>
+        <object-one-id/>
+        <comments/>
+        <anchPntIDObjTwo/>
+        <anchorsCustomized>false</anchorsCustomized>
+        <isVisible>false</isVisible>
+        <ownerDiagID>irgepzt8</ownerDiagID>
+        <text text-rotation="NaN" wrapping="false" position="CENTRE">
+          <content/>
+          <text-formats>
+            <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="6" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+              <target/>
+              <url/>
+            </text-format>
+          </text-formats>
+        </text>
+        <connection-def-id/>
+        <connection-desc/>
+        <group-id/>
+        <text-data-list>
+          <line-text isPrimary="true" location="0.5" id="irgfbwrk-tf9" position="">
+            <text>offset</text>
+            <text-formats>
+              <text-format leading="2" display="block" kerning="false" font="Lato" align="center" color="4934475" letter-spacing="0" under-line="false" order="0" left-margin="0" end-index="6" italic="false" size="14" begin-index="0" indent="0" bold="false" block-indent="0" right-margin="0" bullet="false">
+                <target/>
+                <url/>
+              </text-format>
+            </text-formats>
+          </line-text>
+        </text-data-list>
+        <fromIconSource/>
+        <compatibleConnDefs/>
+        <drawStyle>2</drawStyle>
+        <anchPntIDObjOne/>
+        <style line-color="10526880" line-style="LINESTYLE_NAME_SOLID" alpha="NaN" line-thickness="1.5"/>
+        <toIconSource>ArrowHead5</toIconSource>
+        <anchor-points>
+          <point index="0" y="765" x="260"/>
+          <point index="1" y="770" x="415"/>
+        </anchor-points>
+      </connector>
+    </connectors>
+    <source-tool/>
+    <creatorUid>PHPF73BA-A9B6-CFAA-BD4C-E8D347FBA91C</creatorUid>
+    <libraries>
+      <lib-ID>
+        <id>dfd</id>
+      </lib-ID>
+    </libraries>
+    <koDefIDList>
+      <def-ID>root/textControl?version=&amp;author=</def-ID>
+      <def-ID>root/dfd/dataStore?version=2&amp;author=Cinergix</def-ID>
+      <def-ID>root/dfd?version=1&amp;author=Cinergix</def-ID>
+    </koDefIDList>
+  </creately-doc>
+</svg>
