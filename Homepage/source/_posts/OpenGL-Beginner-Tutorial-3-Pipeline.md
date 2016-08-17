@@ -1,5 +1,5 @@
 title: "OpenGL 入門教學 3: Pipeline"
-date: 2016-07-10 23:47:49
+date: 2016-08-6 14:47:28
 categories: [OpenGL]
 tags: [OpenGL, OpenGL教學, OpenGL入門教學, OpenGL Tutorial, OpenGL介紹, Shader, OpenGL基礎, Tessellation, Tessellation Control Shader, Tessellation Evaluation Shader, Geometry Shader, Fragment Shader, Rasterization, Clipping, Viewport Transform,]
 ---
@@ -8,7 +8,7 @@ tags: [OpenGL, OpenGL教學, OpenGL入門教學, OpenGL Tutorial, OpenGL介紹, 
 
 ## CPU到GPU第一階段 - Vertex Shader的資料傳送 ##
 GPU在開始執行Vertex Shader前面，有一個動作稱為*Vertex Fetching*，這個動作會將我們在程式中寫的一個稱為*Vertex Attribute*的部分讀出來，而後傳送至GPU處。其中GPU必須由 `layout (location = 0) in` 來定義輸入要從GPU的哪個位置中取出，而CPU則是藉由 `glVertexAttribXXX(0, data)` 來將資料填入記憶體等待*Vertex Fetching*到GPU中layout的部分。
-
+<!--more-->
 ### 動手做 - CPU to GPU ###
 首先在迴圈中加入要傳遞的資料與其對應的function，都是以 `glVertexAttrib` 開頭的傳遞函式。
 ``` cpp

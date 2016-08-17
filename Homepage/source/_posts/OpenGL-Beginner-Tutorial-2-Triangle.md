@@ -16,7 +16,7 @@ tags: [OpenGL, OpenGL教學, OpenGL入門教學, OpenGL Tutorial, OpenGL介紹, 
 上方的流程是說明，使用者可以*以某種方式*將一些資料傳給Vertex Shader，本文章目前不會先做傳資料的動作，先給一個小概念。 而傳完之後Vertex Shader仍會以*某種方式*將資料傳給流程中的下一個Shader，就是Fragment Shader，最後Fragment Shader 跑完之後會將圖片輸出到螢幕上。
 
 理解到OpenGL基礎流程後，接下來就是從實作中學習，如果沒有環境的讀者可以參考[上篇](/2016/07/05/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment)中的Code來建立基礎環境。
-
+<!--more-->
 ### 為OpenGL搭起一個Shader的介面 ###
 ``` cpp
 GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);

@@ -15,7 +15,7 @@ tags: [OpenGL, OpenGL教學, OpenGL入門教學, OpenGL Tutorial, GLFW, GLEW, Op
 將GLFW放到任何認為合適的地方，之後再點選VS的專案->屬性，再點選VC++目錄，然後我們主要要變動的有以下兩個，Include目錄與程式庫目錄。
 {% img "/images/OpenGL-Beginner-Tutorial-1-Setting_Up_Enviroment/VSProperty.png" 600 %}
 設定好Include與Library。
-
+<!--more-->
 {% raw %}
 <div class="container-outside-div">
 	<div class="container-inside-div">
