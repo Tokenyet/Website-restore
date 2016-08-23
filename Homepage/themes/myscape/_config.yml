@@ -1,0 +1,31 @@
+# Header
+menu:
+  - {name: Home, path: /, class: icon-home, layout: 1}
+  - {name: Archives, path: /archives, class: icon-archive, layout: 2}
+  - {name: Categories, path: /categories, class: icon-categories, layout: 2}
+  - {name: About, path: /about, class: icon-user, layout: 2} #header.styl
+  #- {name: Tags, path: /tags, class: icon-tags, layout: 2}
+  #- {name: Pictures, path: /picture, class: icon-camera, layout: 2}
+  #- {name: Works, path: /works, class: icon-trophy, layout: 2}
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+#- tag
+- tagcloud
+- archive
+- recent_posts
+
+# Miscellaneous
+google_analytics: UA-65156776-1
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:

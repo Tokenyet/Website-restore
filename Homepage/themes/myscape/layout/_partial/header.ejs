@@ -1,0 +1,37 @@
+<header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
+      </h1>
+      <% if (theme.subtitle){ %>
+        <h2 id="subtitle-wrap">
+          <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
+        </h2>
+      <% } %>
+         </div>
+       <div id="header-inner" class="inner">
+         <nav id="main-nav" class="icon-background">
+              <% for (var i in theme.menu){ %>
+                <% if (theme.menu[i].layout && theme.menu[i].layout == 1) { %>
+                  <a class="nav-icon <% if(i!=0) { %> verticalLine <% } %>" href="<%- url_for(theme.menu[i].path) %>"><div class=<%= theme.menu[i].class %> title='<%= theme.menu[i].name %>'></div></a>
+                <% } else if (theme.menu[i].layout && theme.menu[i].layout == 2) { %>
+                  <a class="nav-icon <% if(i!=0) { %> verticalLine <% } %>" href="<%- url_for(theme.menu[i].path) %>"><div class=<%= theme.menu[i].class %> title='<%= theme.menu[i].name %>'></div> <!--<%= theme.menu[i].name %> --></a>
+                <% } else { %>
+                  <a class="main-nav-link" href="<%- url_for(theme.menu[i].path) %>"><%= theme.menu[i].name %></a>
+                <% } %>
+              <% } %>
+             </nav>
+           <nav id="sub-nav" class="icon-background">
+             <% if (theme.rss){ %>
+                   <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="RSS Feed"></a>
+                 <% } %>
+               <a id="nav-search-btn" class="nav-icon verticalLine" title="Search"></a>
+             </nav>
+           <div id="search-form-wrap">
+             <%- search_form({button: '&#xF002;'}) %>
+             </div>
+         </div>
+     </div>
+ </header>

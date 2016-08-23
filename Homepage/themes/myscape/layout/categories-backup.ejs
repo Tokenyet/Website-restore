@@ -1,0 +1,46 @@
+<!-- title -->
+<%- js(['https://code.jquery.com/jquery-2.1.4.min.js']) %>
+<!--<%- css(['https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css']) %>-->
+<%- js(['https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js']) %>
+
+<script type="Text/JavaScript">
+$(document).ready(function(){
+
+})
+</script>
+
+
+
+<div>
+	<div class="archives-wrap">
+		 <h1 class="archive-year"><%= page.title %></h1>
+	</div>
+	<% console.log("==============") %>
+	<% console.log(site.categories) %>
+	<% console.log("==============") %>
+		<% if (theme.widgets.length) { %>
+		    <div class="col-md-9">
+		<% } else { %>
+			<div class="col-md-12">
+		<% } %>
+		    <% if (site.categories.length) { %>
+		    	<%- list_categories() %>
+		    <% } %>
+
+        <div class="archive">
+		    <% site.categories.sort('name').each(function(item){ %>
+		    <h4 class="archive-ul show" data-toggle="collapse" id="<%= item.name %>" data-target="#modal-<%= item.name %>"> <%= item.name %> <b class="caret"></b></h4>
+		    <ul id="modal-<%= item.name %>" class="collapse in">
+		        <% site.posts.sort('date', -1).forEach(function(it){ %>
+			        <% if (it.categories.length == 1 && it.categories.data[0]._id == item._id){ %>
+		   	        <li class="listing-item"><a href="<%= config.root %><%= it.path %>" <% if (it.description) { %> title="<%= it.description %>" <% } %>><%= it.title %></a></li>
+			        <% } %>
+		        <% }); %>
+		   </ul>
+		   <% }); %>
+		   </ul>
+        </div>
+
+	</div> <!-- col-md-9 -->
+</div> <!-- row-fluid -->
+

@@ -824,7 +824,7 @@ P& = A + t(B-A)    \\
 
 {% blockquote %}
 ####Intepolation(內插)####
-根據現有的資訊進行階段式前進，除了有關線的公式，利用向量步步前進的概念外，OpenGL在顏色上也有這樣的機制。Fragment Shader階段時，若使用者定義三個點各自的顏色，未給定其他像素的意義，OpenGL就會進行顏色的內插。假設有AB兩點，一者紅，一者藍，OpenGL就會自動用內插的方式進行顏色計算，概念如此: {% math %} Color_new = Color_A + t(Color_B - Color_A) = (1-t)Color_A + tColor_B $ {% endmath %}。而GLSL語法裡面進行這樣計算的是一個叫`mix(a, b, t)`的內建函式，專門用來處理以上的動作。
+根據現有的資訊進行階段式前進，除了有關線的公式，利用向量步步前進的概念外，OpenGL在顏色上也有這樣的機制。Fragment Shader階段時，若使用者定義三個點各自的顏色，未給定其他像素的意義，OpenGL就會進行顏色的內插。假設有AB兩點，一者紅，一者藍，OpenGL就會自動用內插的方式進行顏色計算，概念如此: {% math %} Color_{new} = Color_A + t(Color_B - Color_A) = (1-t)Color_A + tColor_B {% endmath %}。而GLSL語法裡面進行這樣計算的是一個叫`mix(a, b, t)`的內建函式，專門用來處理以上的動作。
 {% endblockquote %}
 
 

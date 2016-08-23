@@ -64,7 +64,7 @@ pagination_dir: page
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 ## freemind,landscape,landscape-custom
-theme: landscape-custom
+theme: myscape  ## landscape-custom
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
