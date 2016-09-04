@@ -1,4 +1,4 @@
-title: "OpenGL 入門教學 2: Strat With Triangle"
+title: "OpenGL 藍寶入門教學 2: Strat With Triangle"
 date: 2016-07-10 23:47:49
 categories: [OpenGL]
 tags: [OpenGL, OpenGL教學, OpenGL入門教學, OpenGL Tutorial, OpenGL介紹, Shader, OpenGL基礎, VAO, Triangle]

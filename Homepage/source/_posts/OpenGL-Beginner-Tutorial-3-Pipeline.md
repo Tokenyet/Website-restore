@@ -1,4 +1,4 @@
-title: "OpenGL 入門教學 3: Pipeline"
+title: "OpenGL 藍寶入門教學 3: Pipeline"
 date: 2016-08-6 14:47:28
 categories: [OpenGL]
 tags: [OpenGL, OpenGL教學, OpenGL入門教學, OpenGL Tutorial, OpenGL介紹, Shader, OpenGL基礎, Tessellation, Tessellation Control Shader, Tessellation Evaluation Shader, Geometry Shader, Fragment Shader, Rasterization, Clipping, Viewport Transform,]

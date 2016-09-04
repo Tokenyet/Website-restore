@@ -1,4 +1,4 @@
-title: "OpenGL 入門教學 1: Setting up Environment"
+title: "OpenGL 藍寶入門教學 1: Setting up Environment"
 date: 2016-07-05 19:14:47
 categories: [OpenGL]
 tags: [OpenGL, OpenGL教學, OpenGL入門教學, OpenGL Tutorial, GLFW, GLEW, OpenGL安裝, Visual Studio]

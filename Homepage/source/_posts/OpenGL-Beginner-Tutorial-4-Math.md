@@ -1,4 +1,4 @@
-title: "OpenGL 入門教學 4: 數學"
+title: "OpenGL 藍寶入門教學 4: 數學"
 date: 2016-08-11 16:44:20
 categories: [OpenGL]
 tags: [OpenGL, OpenGL教學, OpenGL入門教學, OpenGL Tutorial, OpenGL介紹, OpenGL基礎, 向量, 歐拉角, 折射, 反射, Reflect, Refract, 世界座標, 物體座標, local space, view space, clip space, ndc, projection, 透視投影, 正交投影, GLM, bezier curve, cubic bezier curve, canera, lookat, 矩陣, 攝影機, 座標系統, Euler Angle, Rotation, translate, scale, matrix, vector, 透視除法, perspective, orthographic, perspective division, 內積, 外積, 直線, 內插, Intepolation]
