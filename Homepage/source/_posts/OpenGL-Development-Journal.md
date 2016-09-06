@@ -1,0 +1,152 @@
+title: "OpenGL 遊戲引擎開發日誌"
+date: 2016-09-06 22:10:49
+categories: [OpenGL]
+tags: [OpenGL, 開發日誌, Development Journal]
+---
+## 本篇說明 ##
+開發引擎是我用來考驗自己的方式，學習、理解並實作以往學到的各種圖學概念，並用上自己對物件導向與程式語言的熟悉度，希望能完成一個基本的如場景建置、粒子效果、物理碰撞、模組動畫...等等的功能。而更甚之希望當OpenGL或圖學界中有什麼新功能，可以在自己最熟悉的環境中依照概念實作。
+
+系統環境: Windows 10
+開發軟體: Visual Studio 2015
+硬體設備: i7-3770 and GTX960
+核心接口: [GLFW][1]/[GLEW][2]/[GLM][3]/[Assimp][4]/[SOIL2][5]
+輔助插件: [Nshader for Visual Studio 2015][6]
+
+####其他事項####
+** 2016/09/05 前的日誌乃日根據記憶回朔，09/05方開始打算紀錄。 **
+
+<!--more-->
+
+#### 2016/09/06 ####
+Think&Imp: 增加平坦地形相關繪製功能
+1. 增加Terrain物件。
+2. 增加TerrainRenderer利用效率較高的GL_TRIANGE_STRIP繪製地形。
+3. 增加TerrainShader，繼承一般Shader，擁有基本光影。
+
+Issue: 樹木物件數量繪製達500有些微Lag，至1000有明顯Lag，以後需要新增Instancing功能。
+
+{% img "/images/ODJ/20160906screenshot.png" 420 %}
+
+
+#### 2016/09/05 ####
+Think&Imp: Renderer分割責任
+1. 引入Template，將Entity<模組>，代表任何模組都可擁有位置、旋轉等基礎參數。
+2. MasterRenderer: 總繪製器，儲存使用者不同的物件Entity List。
+3. LightSourceRenderer: 光源繪製，目前專門繪製PointLight的光源。
+4. MeshesRenderer: 模組面集合繪製，將模組載入之所有面進行繪製。
+5. Renderer: 一般的Renderer，只繪製擁有一張貼圖的物件。
+6. CubeShader: 目前當作光源繪製著色器，只接受基本光源參數。
+7. ModelShader: 模組用，也許未來需依照模組新增其他模組著色器，目前支援單一光源的Phong光影特效。
+8. StaticShader: 僅適合單一材質物件，不過也支持光影特效。
+9. 優化Texture載入次數。
+
+Issue: 優化在C++中的問題
+若Texture相同，就不重新載入，但遇到std::map跟std::unorder_map使用問題，由於std::unorder_map太難實作，故利用std::map並讓TextureModel可以互相比較來建立材質索引表。所幸TextureID OpenGL控制得很好，載入過的材質僅讓使用者維護編號，因此利用TextureModel當std::map的key可行。
+
+{% img "/images/ODJ/20160905screenshot.png" 420 %}
+
+
+#### 2016/09/04 ####
+Think&Imp: 新增著色器與不同Renderer與引入Assimp，並實作簡單光影。
+1. 引入模組載入AssimpLoader，新增一組MeshRenderer與MeshShader來專門繪製模組。
+2. 加入Phong Model的光影特效。
+3. 利用Debug版Assimp載入史丹佛龍約略7秒，Release版約略1秒。
+
+
+#### 2016/09/03 ####
+Think&Imp: 基礎架構與模組載入
+1. 修改核心模組，將Keyboard、Mouse、ErrorCheck、Debug等訊息以靜態方式呼叫。
+2. 新增TextureModel概念，擁有BasicRenderModel及一組材質讀取。
+3. 加入Entity概念，Entity代表物件的位置、旋轉角、縮放...等基礎屬性。
+4. 實作讀取簡單obj file的ObjLoader。
+
+Issue: 模組讀取速度
+對於讀取一個[史丹佛龍](http://graphics.stanford.edu/data/3Dscanrep/dragon.gif)來講，C++的getline實在非常緩慢，大概要一分鐘才可載入完200,000行的OBJ。思考引入Assimp。
+
+{% img "/images/ODJ/long-time-dragon.png" 420 %}
+
+
+#### 2016/09/02 ####
+Think&Imp: 基礎架構
+1. 基礎四元素 Renderer, BasicRenderModel, Shader, Loader
+2. Renderer: 目前專門繪製單一BasicRenderModel。
+3. BasicRenderModel: 只是一個存取用的資料結構，存放VAO與繪製點數(Indices)。
+4. Shader: 延伸Shader，繼承Shader介面者，代表一組特殊的著色器，未來可分為一般物件著色氣、模組著色器、地形著色器...。
+5. Loader: 載入資料與創造BasicRenderModel，並且具有資源管理，管理所有VAO,VBO。
+
+
+#### 2016/09/01 ####
+Re-Contruct: 架構除了核心部分打掉重練。
+Re-Target: 失敗經驗，並吸收外國專家經驗，重新架構。
+
+
+#### 2016/08/31 ####
+Think&Imp: 加入地形材質
+
+{% img "/images/ODJ/flat-terrian.png" 420 %}
+
+
+#### 2016/08/30 ####
+Think&Imp: 繪製平坦地形
+1. 了解地形結構。
+概念:
+
+Vertex:
+0  1  2  3  4
+5  6  7  8  9
+10 11 12 13 14
+15 16 17 18 19
+20 21 22 23 24
+
+Indices:
+0   5  1   6  2   7  3   8  4   9    9   5
+5  10  6  11  7  12  8  13  9  14   14  10
+10 15 11  16 12  17 13  18 14  19   19  15
+15 20 16  21 17  22 18  23 19  24
+
+由於使用GL_TRIANGLE_STRIP每兩排結尾都加上一些多的Vertex，開發日誌就不多說了。
+
+{% img "/images/ODJ/flat-terrian-line.png" 420 %}
+
+
+#### 2016/08/29 ####
+Think&Imp: 繪製平面與正方體
+1. 依照CCW順序，自行建構正方體的Vertex與Index。
+Issue:
+1. 開發有點吃緊，許多參數如位置、旋轉...等不知如何參與。
+
+
+#### 2016/08/28 ####
+Issue:
+1. 實作並思考後發現，對於Renderer與Shader的定義不明確。
+2. Renderer依照此模式下去，只有一個而且責任非常小，將限制RenderOjbect開發。
+3. Shader目前定位非常虛幻，每一個新物件必須重新實作且綁定。
+
+
+#### 2016/08/27 ####
+Think&Imp: 繪製基本物件架構。
+1. 每個基礎的可繪製物件稱為RenderObject。
+2. RenderObject大致為StartUp,Shutdown,Render。
+3. RenderSystem繪製RenderObject抽象的集合。
+4. 繼承RenderObject者可任意實作自己的繪製函式。
+
+
+#### 2016/08/26 ####
+Target: 依照書中所見的sb7來嘗試實作一個類似的開發環境。
+Think&Imp: 建立基礎環境。
+1. 建立Core類別存放核心標頭GLFW,GLEW,GLM。
+2. 匯入Shader類別，提供vertex,fragment,geometry,tessellation...基礎建構功能，從檔案載入。
+3. 匯入Camera類別，提供基本攝影機移動。
+
+
+[1]: http://www.glfw.org/ "GLFW"
+
+[2]: http://glew.sourceforge.net/ "GLEW"
+
+[3]: http://glm.g-truc.net/ "GLM"
+
+[4]: http://www.assimp.org/ "Assimp"
+
+[5]: https://bitbucket.org/SpartanJ/soil2 "SOIL2"
+
+[6]: http://www.horsedrawngames.com/shader-syntax-highlighting-in-visual-studio-2013/ "Nshader"

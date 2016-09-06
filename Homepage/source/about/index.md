@@ -102,10 +102,10 @@ photos:
 <script type="text/javascript">
 	$(function(){
 		var langChartData = [
-		  {"value": 50, "label": 'C#'},
+		  {"value": 30, "label": 'C#'},
 		  {"value": 20, "label": 'Javascript'},
-		  {"value": 10, "label": 'C/C++'},
-		  {"value": 10, "label": 'OpenGL'},
+		  {"value": 20, "label": 'C/C++'},
+		  {"value": 30, "label": 'OpenGL'},
 		  {"value": 5, "label": 'ChromeAPI'},
 		  {"value": 5, "label": 'Unknown'},
 		];

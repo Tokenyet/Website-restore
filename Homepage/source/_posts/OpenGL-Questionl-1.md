@@ -1,13 +1,15 @@
-title: "OpenGL之沒有蠢問題 1 - glGetUniformLocation"
+title: "OpenGL之沒有蠢問題 1 - Uniform"
 date: 2016-09-04 23:10:18
 categories: [OpenGL]
 tags: [OpenGL問題, glGetUniformLocation, glGetUniformLocation fails, glGetUniformLocation 問題, glGetUniformLocation bug]
 ---
-## 小聊 ##
-最近在將學過的技巧慢慢聚集起來，零散的學過**Phong**，**Normal Mapping**，**gBuffer**，**Assimp**，**Instancing**，**Parallax Mapping**....。靈機一動，想藉由開發遊戲引擎將各種技巧整合起來，參閱網路上神人的概念，拼拼湊湊總算是有一點點的雛形，但其中遇到最頭痛也最簡單的問題就是`glGetUniformLocation`這傢伙，因此這系列就當我遇到的蠢問題紀錄吧！
+## 閒談 ##
+最近在正藉由開發遊戲引擎將以往學過的各種技巧逐步整合起來，像是**Phong**，**Normal Mapping**，**gBuffer**，**Assimp**，**Instancing**，**Parallax Mapping**...等。然後參閱網路上神人的概念，左吸收右吐納總算是有點雛形，但其中遇到最Impress的問題是`glGetUniformLocation`，就由它來做蠢問題系列的第一集主角吧！
+
+<!--more-->
 
 ## glGetUniformLocation ##
-在這邊給一個大大的標題，以示尊敬。glGetUniformLocation是碰到Shader即會用到的function，但是Shader爆炸了，卻找不到問題，首先就會面對的也是`glGetUniformLocation`。
+`glGetUniformLocation`是碰到Shader即會用到的function，但是Shader爆炸了，卻找不到問題，首先就會面對的也是`glGetUniformLocation`。
 
 先展示一下Dowen有問題的Shader與Code:
 
