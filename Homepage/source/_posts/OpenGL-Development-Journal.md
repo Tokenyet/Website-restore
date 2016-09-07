@@ -1,5 +1,5 @@
 title: "OpenGL 遊戲引擎開發日誌"
-date: 2016-09-06 22:10:49
+date: 2016-09-07 23:39:15
 categories: [OpenGL]
 tags: [OpenGL, 開發日誌, Development Journal]
 ---
@@ -16,6 +16,20 @@ tags: [OpenGL, 開發日誌, Development Journal]
 ** 2016/09/05 前的日誌乃日根據記憶回朔，09/05方開始打算紀錄。 **
 
 <!--more-->
+
+#### 2016/09/07 ####
+Think&Imp: 增加草地物件與迷霧效果
+1. 修改SOIL讀取圖片格式從SOIL_LOAD_RGB -> SOIL_LOAD_RGBA，支援透明度。
+2. 修改一般Shader中遇到透明會自動discard。
+3. 將Texture.ID改為Texture.GetID(),C++的Readonly public variable不可信任。
+4. 草地運用trick: Fake Lighting，使Normal都朝上，讓光源一致。
+5. 將各種Shader從Renderer中拔出，將共同參數交給MasterRenderer一起設置，以免未來更改Super Shader需要從每個Renderer中逐一修改。
+6. 針對單一天空顏色產生遠處迷霧效果，僅光源暫時不參與迷霧效果。
+
+Question: 迷霧效果是實踐於Vertex Shader，其原理與常用的深度轉換FragCoord.z相似，是否應實踐於Fragment且改用深度轉換效果較佳，因為Vertex Shader到Fragment是Intepolate的方式產生插值，就如早期光影[Gouraud Shading](https://en.wikipedia.org/wiki/Gouraud_shading)的視覺差異。
+
+{% img "/images/ODJ/20160907screenshot.png" 420 %}
+
 
 #### 2016/09/06 ####
 Think&Imp: 增加平坦地形相關繪製功能
