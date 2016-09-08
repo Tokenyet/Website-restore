@@ -1,5 +1,5 @@
 title: "OpenGL 遊戲引擎開發日誌"
-date: 2016-09-07 23:39:15
+date: 2016-09-08 23:10:15
 categories: [OpenGL]
 tags: [OpenGL, 開發日誌, Development Journal]
 ---
@@ -17,6 +17,19 @@ tags: [OpenGL, 開發日誌, Development Journal]
 
 <!--more-->
 
+#### 2016/09/08 ####
+Think&Imp: 地形多重材質混合
+1. 新增TerrainTexturePack，包含四個顏色。
+2. 修改TerrainRenderer與TerrainShader配合BlendMap概念。
+
+Other: 地形利用RGB與黑色達成四個材質混合，如果利用透明度可達成五個材質，又有聞之用其他色彩數學方法可達成八材質，Unity基本支援即是八種材質地形。
+
+Issue 1: 縱使單一材質地形仍須使用BlendMap。
+Issue 2: 需要一所見及所得的編輯器比較好製作BlendMap。
+
+{% img "/images/ODJ/20160908screenshot.png" 420 %}
+
+
 #### 2016/09/07 ####
 Think&Imp: 增加草地物件與迷霧效果
 1. 修改SOIL讀取圖片格式從SOIL_LOAD_RGB -> SOIL_LOAD_RGBA，支援透明度。
@@ -27,6 +40,8 @@ Think&Imp: 增加草地物件與迷霧效果
 6. 針對單一天空顏色產生遠處迷霧效果，僅光源暫時不參與迷霧效果。
 
 Question: 迷霧效果是實踐於Vertex Shader，其原理與常用的深度轉換FragCoord.z相似，是否應實踐於Fragment且改用深度轉換效果較佳，因為Vertex Shader到Fragment是Intepolate的方式產生插值，就如早期光影[Gouraud Shading](https://en.wikipedia.org/wiki/Gouraud_shading)的視覺差異。
+
+Other: Terrain的迷霧密度不小心調太高導致畫面不協調。
 
 {% img "/images/ODJ/20160907screenshot.png" 420 %}
 
