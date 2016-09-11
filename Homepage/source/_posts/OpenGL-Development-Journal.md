@@ -1,5 +1,5 @@
 title: "OpenGL 遊戲引擎開發日誌"
-date: 2016-09-08 23:10:15
+date: 2016-09-11 22:00:37
 categories: [OpenGL]
 tags: [OpenGL, 開發日誌, Development Journal]
 ---
@@ -16,6 +16,32 @@ tags: [OpenGL, 開發日誌, Development Journal]
 ** 2016/09/05 前的日誌乃日根據記憶回朔，09/05方開始打算紀錄。 **
 
 <!--more-->
+
+#### 2016/09/11 ####
+Think&Imp: 進階地形&整理程式
+1. 支援24bit Height Map調整地形起伏變化。
+2. 增加地形Normal向量，支援光影變化。
+
+Note 1: 地形之Normal是以Finite Difference方法算出，相較於Cross Product 法更為節省效能，不過也有在Geometry Shader利用GPU負擔的算法，也許以後可以實驗比較。
+
+Note 2: 首次用到位元位移技巧，利用SOIL提供讀取完後的unsinged char*位移轉換可將24bit存入32bit int中。原先利用std::bitset<24>，但實在過於緩慢，方自己寫24bit -> int。而若使用到透明度，可以從原本支援地形變化16,777,216種變為4,294,967,296種。
+
+{% img "/images/ODJ/20160911screenshot.png" 420 %}
+
+
+#### 2016/09/10 ####
+Think&Imp: 第三人稱攝影機
+1. 新增滑鼠點擊與滾輪的Callback事件。
+2. 新增第三人稱攝影機PlayerCamera。
+
+Issue: glfw事件屬於driven式，雖然是poll check，不過沒driven到就不會觸發callback，因此在滑鼠滾輪事件上需要添加Timestamp來製作Mouse靜態Class的調整。
+
+{% raw %}
+<div class="container-outside-div">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/btdXzboOrGI" frameborder="0" allowfullscreen align="middle"></iframe>
+</div>
+{% endraw %}
+
 
 #### 2016/09/08 ####
 Think&Imp: 地形多重材質混合
