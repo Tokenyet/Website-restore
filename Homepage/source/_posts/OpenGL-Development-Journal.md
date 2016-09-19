@@ -1,5 +1,5 @@
 title: "OpenGL 遊戲引擎開發日誌"
-date: 2016-09-11 22:00:37
+date: 2016-09-14 22:00:37
 categories: [OpenGL]
 tags: [OpenGL, 開發日誌, Development Journal]
 ---
@@ -16,6 +16,66 @@ tags: [OpenGL, 開發日誌, Development Journal]
 ** 2016/09/05 前的日誌乃日根據記憶回朔，09/05方開始打算紀錄。 **
 
 <!--more-->
+
+#### 2016/09/19 ####
+Target: 引入3D模組動畫
+Progress&Record: 
+1. 了解骨架空間矩陣運算
+2. 了解模組動畫Keyframe
+3. Game Engine Architecture Jason Gregory, page 11.1 ~ 11.5節很重要。
+4. 了解需注意開發環境與輸入檔案是否同為左手或右手座標空間，若不同則需轉換。
+5. 了解GLM與ASSIMP矩陣上，前者為Column Major，後者為Row Major，在骨架使用上皆必須先轉置，否則結果將不如預期。
+
+Other Other:
+研究螢幕閃頻與檯燈閃頻問題。
+護眼螢幕: 淨藍光、不閃頻
+護眼檯燈: 不閃頻、抗眩光
+
+
+#### 2016/09/15 ####
+Learn: 3D模組建構
+1. 認識基本3D模組建構。
+2. 認識模組UV Mapping。
+3. 認識模組比重繪製。
+4. 認識基本骨架。
+5. 認識骨架綁定。
+6. 認識控制骨架。
+7. 使用Paint.Net繪製UV Mapping。
+
+{% raw %}
+<div class="container-outside-div">
+	<div class="container-inside-div">
+		<img src="/images/ODJ/20160915screenshot1.png" style="width: 300px">
+		<p>模組切割紀錄</p>
+	</div>
+	<div class="container-inside-div">
+		<img src="/images/ODJ/20160915screenshot2.png" style="width: 300px">
+		<p>骨架操作紀錄</p>
+	</div>
+</div>
+{% endraw %}
+{% img "" 420 %}
+
+
+#### 2016/09/14 ####
+Think&Imp: Texture Atlases
+1. 支援多材質圖片。
+
+Note 1: 相關使用如樹木四季變化,不同樹葉同模組草地。
+
+{% img "/images/ODJ/20160914screenshot.png" 420 %}
+
+
+#### 2016/09/12 ####
+Think&Imp: 地形碰撞偵測，場景物體貼齊地形
+1. 記錄地形每點高度，利用重心座標系平緩高度變化。
+
+Note 1: 地形碰撞偵測使用到Barycentric Coordinate，相關數學知識紀錄於數學筆記區中。
+
+Big Isuue: 許多資料型態都應使用指標較符合使用情境，C++中動態記錄陣列必定要使用指標為宣告方式，否則會被馬上解構，因此地形全使用指標式，從表層改入裏層。難怪Cocos2d任何物體都使用`->`來操作物件，而不是`.`。C++真是個難開發的語言阿...。
+
+{% img "/images/ODJ/20160912screenshot.png" 420 %}
+
 
 #### 2016/09/11 ####
 Think&Imp: 進階地形&整理程式
