@@ -1,5 +1,5 @@
 title: "OpenGL 遊戲引擎開發日誌"
-date: 2016-11-5 23:52:55
+date: 2016-12-14 22:50:21
 categories: [OpenGL]
 tags: [OpenGL, 開發日誌, Development Journal]
 ---
@@ -9,13 +9,124 @@ tags: [OpenGL, 開發日誌, Development Journal]
 系統環境: Windows 10
 開發軟體: Visual Studio 2015
 硬體設備: i7-3770 and GTX960
-核心接口: [GLFW][1]/[GLEW][2]/[GLM][3]/[Assimp][4]/[SOIL2][5]
+核心接口: [GLFW][1]/[GLEW][2]/[GLM][3]/[Assimp][4]/[SOIL2][5]/[Bullet Physics][8]
 輔助插件: [Nshader for Visual Studio 2015][6]/[Glslify][7]
 
 ####其他事項####
 ** 2016/09/05 前的日誌乃日根據記憶回朔，09/05方開始打算紀錄。 **
 
 <!--more-->
+
+#### 2016/12/14 ####
+為了優化引擎，確保以後物件多到不行而Lag的問題，這次實踐了「**Frustum Culling**」。這是一個很常用且對優化來說非常實用的功能。假想我有兩萬個物件，螢幕中，從人物的角度看出去卻只有五百個物件，那如果每個都與OpenGL溝通，讓GPU判斷，會導致非常大量無謂的**Draw Call**，換言之就是減少溝通次數，從某些層面來看比減少面數的優化實用又輕鬆多了！
+
+關於技術的部份，**Frustum Culling**是透過**Projection Matrix**與**View Matrix**來產生出一塊虛擬的可視區(或是相關輸入參數)，透過投影矩陣可以解析出一個基本可視區，而透過視野矩陣，可以使其反矩陣後得到旋轉與位移量。透視矩陣會解析出六個盤子(跟Narrowphase碰撞偵測類似，有興趣看參考Plane Math)，乘上反矩陣就會得到世界座標的可視區，最後的步驟是，根據自己每個物件的AABB來進行篩選。說是這樣，不過還是做了好幾天啊ORZ
+
+最後附註，由於這樣的區域看不見，因此順便努力地實踐了相對的Graphics Debugger與旁觀者Camera，雖然不是什麼新技術，不過看得到對Debug還是很有幫助的。
+
+{% raw %}
+<div class="container-outside-div">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dT5OltFqIJs" frameborder="0" allowfullscreen></iframe>
+</div>
+{% endraw %}
+
+這部分比較難看出任何效果，因為是到視窗外才會拋棄繪製，不過可以注意到的是畫面拉近到某個距離，角色就會被迅速拋棄，這樣比較細微變化。
+
+#### Reference: ####
+[View Frustum Culling](http://www.lighthouse3d.com/tutorials/view-frustum-culling/)
+[Plane Math 1](http://www.lighthouse3d.com/tutorials/maths/plane/)
+[Plane Math 2](http://tutorial.math.lamar.edu/Classes/CalcIII/EqnsOfPlanes.aspx)
+[Cross Product Calculator](http://onlinemschool.com/math/assistance/vector/multiply1/)
+[Anonymous Function in C++](http://stackoverflow.com/questions/12483753/how-do-define-anonymous-functions-in-c)
+
+
+#### 2016/12/6 ####
+這次紀錄，要說的專有名詞與失敗的嘗試也是非常多，就先從我要導入引擎的技術開始說起了，這次要讓引擎能有**Level Of Details**的優化效果，也就是說越遠的物體，所畫面數減少，這樣可以降低GPU的負擔，進而提升效能(以前我是不信的)。
+
+在開始前，想投過學術的方式達成這項功能，也就是載入物件後，自動進行簡化技術。舉例來說，自動為每一個物件做出簡化的三種模型，其實是想產生三種EBO物件。而欲使用的技術為**Half-Edge Collapse**，其技術基本上來說就是，將物件統整為**Half-Edge Structure**，這樣的好處是，可以輕易查詢哪個邊、點或面使用哪個邊、點或面，此外還可以查詢鄰近的邊點面，對以後如果有需要做模組網格即時查詢很有幫助。
+
+學習與實作完Half-Edge Collaspe技術後，不是指標無法找尋到對應的邊(Opposite pair)，就是無法削減任何一面，因此又開始了一段痛苦的找問題之旅。
+
+起初經過不斷測試，懷疑演算法不夠堅固或邏輯有誤，因此找上了專門網格的第三方函式庫「[OpenMesh](https://www.openmesh.org/)」，導入引擎雖然有些難處，不過經過很多次導入的磨練，這倒不成問題，但問題還是出現了，使用函式庫對網格簡化所提供的**ModQuadric**演算法，也無法消除任何一面，這樣的事情等同宣告問題出在資料來源。
+
+詳細看過資料來源的時候，經過一些發問與深度查詢，才知道原來Assimp導入的資料是所謂的Non-Manifold網格，當然這是Assimp對OpenGL/DirectX的friendly支援。而這樣的支援出現了問題，無法建立出Adjacency Graph，就無法產生Half-edge structure，而如果自行實作物件讀取器，又無法多檔支援。至於為什麼Assimp的格式會這樣? 仔細想過，如果一個Vertex只支援多個Normal還有多個TexCoord(也許還有bone weight)，那寫讀取器的時候，到底是要怎麼讓Vertex擁有多個資料還要知道是哪個面的? Assimp就將點分為多個不同但同位置的點，然後讓一個Vertex只帶一組Normal和TexCoord。
+
+想通箇中困難後，本來趨近於放棄實作Lod，但是靈機一動想到，改寫程式架構，使一個物件可以承載多個物件，就可以在適當的時候做切換。這樣的好處是，可以控制簡化後的模型，還有品質也是自己控制的。壞處是，必須先做好多種模型。因此這裡想到了一個很好的解，就是在Blender寫一個專門的lod格式的obj檔，然後寫一個專門的讀取器，可以讀一個物件帶多個EBO，那就解決了。不過壞處是，只支援obj檔。
+
+{% raw %}
+<div class="container-outside-div">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0OViWX_mafo" frameborder="0" allowfullscreen></iframe>
+</div>
+{% endraw %}
+
+#### Problem And Slove ####
+在自己實作期間遇到的問題與解決:
+[Edge Collapse with Assimp](http://stackoverflow.com/questions/40880330/edge-collapse-with-assimp/40905514#40905514)
+[Mesh Simplification with Assimp and OpenMesh](http://stackoverflow.com/questions/40961441/mesh-simplification-with-assimp-and-openmesh/40989491#40989491)
+
+#### Reference: ####
+[The Half-Edge Data Structure](http://www.flipcode.com/archives/The_Half-Edge_Data_Structure.shtml)
+[The Halfedge Data Structure](http://www.openmesh.org/Daily-Builds/Doc/a00016.html)
+[Mesh Simplication 1](https://www.cs.mtu.edu/~shene/COURSES/cs3621/SLIDES/Simplification.pdf)
+[Mesh Simplication 2](http://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/08_Simplification.pdf)
+[Mesh Simplication 3](http://www.cs.virginia.edu/~gfx/Courses/1999/advanced.spring99.html/lecture23/sld001.htm)
+[Mesh Simplication Code](https://github.com/novalain/mesh-simplification/blob/master/Mesh.h)
+[Mesh Decimation Framework by OpenMesh](http://www.openmesh.org/Documentation/OpenMesh-Doc-Latest/a00004.html#DecimaterExa)
+[Halfedge and Mesh Simplication Explaination](http://stackoverflow.com/questions/15365471/initializing-half-edge-data-structure-from-vertices)
+[Halfedge and Mesh Simplication Issue](http://stackoverflow.com/questions/27049163/mesh-simplification-edge-collapse-conditions)
+[Meshlab](http://meshlab.sourceforge.net/)
+
+
+#### 2016/11/25 ####
+又一次革命性系統改革，將以前天真的架構砍了，又把原本碰撞系統各種關聯全部砍掉，為的就是引進新的物理系統**「Bullet Physics」**。透過天才所做的物理引擎，可以節省實作碰撞系統與物理模擬的各種難題與測試。當然換引擎的代價也是很大的，學習使用一個引擎除了要有豐厚的經驗才能搭建橋樑外，還有原本的架構擺好卻要大修改，此外還牽涉到讀檔與圖形暫存記憶體管理的部分，實在非常之多啊。
+
+當然換新引擎不是沒有缺陷，這樣的引擎由於物理特性十足，有時候要模擬像是人物走路或者一些簡單動作的時候，在我之前粗鄙的引擎下十分容易且順暢，但是在成熟引擎擁有各種質量、摩擦力...的特性，所以為了表現如我想像，經過了很多調校，終於調整到看起來舒服的樣子，雖然還是有點小問題，不過都是等以後熟練後就能駕馭。
+
+此外**Graphic Debugger**，在這段實作上仍佔十分重要的地位，當初未了解**Bullet Physics**，所以自行以挖資料的方式實作一個，但某天發現Bullet Physics竟然有提供這樣的介面！就花了幾天實作了出來，其中碰到記憶體管理問題，還會讓網頁或影片炸裂，差點害我以為顯卡被我玩壞了，不過也因為碰到這問題才知道VBO的管理是十分必要的，如果每次產生物件都不去理會暫存，那爆掉的那刻，影響的不只是程式，而是用到GPU的所有程式。
+
+這邊就不列出到底改了什麼就簡單提點一下實作關鍵。
+1. Debug模式下測試**個位數**的Bullet Physics物件，Release模式下測試**大量物件**，否則會Lag。
+2. 架構最好不要多重繼承，雙重就已悲劇，不管如何都要使用介面或抽象方式。
+3. 若要渲染多筆相似物件，可以考慮渲染前再存入Buffer，一次送給GPU，此非Instancing，不過也適用。
+4. 動態物件必須要做Convex Reduction，否則物理引擎會受不了(?)
+5. Bullet Physics的原點是質量原點，繪製原點則是: {% math %}
+\begin{bmatrix} 
+Origin_{visual}.x \\
+Origin_{visual}.y \\
+Origin_{visual}.z \\
+\end{bmatrix}
+= 
+\begin{bmatrix} 
+Origin_{bullet}.x \\
+Origin_{bullet}.y + Offset_{localspace} \times Scale_{entity} \\ 
+Origin_{bullet}.z \\
+\end{bmatrix}
+{% endmath %}
+
+{% raw %}
+<div class="container-outside-div">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zAXUK8q5jUg" frameborder="0" allowfullscreen></iframe>
+</div>
+{% endraw %}
+最後Release模式下，未開圖形除錯器:60fps，開了:35fps，差異是多繪製了幾十萬條線，也許以後需要其他方式優化。
+
+#### Problem And Slove ####
+在自己實作期間遇到的問題與解決:
+[Few rigidbody cause Bullet Physics slowly](http://stackoverflow.com/questions/40574918/few-rigidbody-cause-bullet-physics-slowly/40587204#40587204)
+[Debug mode or Release mode](http://stackoverflow.com/questions/40575482/debug-mode-or-release-mode)
+
+#### Reference: ####
+[btShapeHull vertex reduction utility](http://www.bulletphysics.org/mediawiki-1.5.8/index.php/BtShapeHull_vertex_reduction_utility)
+[Bullet Physics Tutorial](http://bulletphysics.org/mediawiki-1.5.8/index.php/Tutorial_Articles)
+[Bullet Physics Collision Callback](https://www.youtube.com/watch?v=YweNArzAHs4)
+[Character Movement in physics engine](http://gamedev.stackexchange.com/questions/24772/how-would-i-move-a-character-in-an-rpg-with-bullet-physics-ogre3d)
+[Sphere Vertices Generation 1](http://stackoverflow.com/questions/5988686/creating-a-3d-sphere-in-opengl-using-visual-c)
+[Sphere Vertices Generation 2](http://gamedev.stackexchange.com/questions/16585/how-do-you-programmatically-generate-a-sphere)
+[Bullet Physics Object Origin 1](http://stackoverflow.com/questions/24825615/libgdx-bullet-offset-origin?rq=1)
+[Bullet Physics Object Origin 2](http://www.bulletphysics.org/Bullet/phpBB3/viewtopic.php?f=9&t=2209)
+[Collision Margin Technique 1](http://gamedev.stackexchange.com/questions/113774/why-do-physics-engines-use-collision-margins)
+[Collision Margin Technique 2](https://www.youtube.com/watch?v=BGAwRKPlpCw)
+[Graphic Debugger for old opengl example](https://github.com/NickHardeman/ofxBullet/blob/master/src/render/GLDebugDrawer.cpp)
 
 #### 2016/11/5 ####
 消失了將近一個月，其實是碰撞系統實在是太難實作。由於以為上一個部分的SAP Broad Phase Collision Detection 實作完畢且正確，導致我在這部分卡了個天荒地老，還好期間有接案來騙自己這段時間沒有白費(?)，不過經過這一番戰役，我確定打了個敗仗，當然收穫還是很多的。
@@ -457,3 +568,5 @@ Indices:
 [6]: http://www.horsedrawngames.com/shader-syntax-highlighting-in-visual-studio-2013/ "Nshader"
 
 [7]: https://github.com/stackgl/glslify "GLSLIFY"
+
+[8]: https://github.com/bulletphysics/bullet3/releases "Bullet Physics"
