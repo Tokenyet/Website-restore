@@ -1,0 +1,654 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dif",
+				"diffuse"
+			],
+			[
+				"glGet",
+				"glGetUniformLocation"
+			],
+			[
+				"sha",
+				"shaderUsedUBO1"
+			],
+			[
+				"prog",
+				"program"
+			],
+			[
+				"GLsi",
+				"GLsizeiptr"
+			],
+			[
+				"h",
+				"href\tAttr"
+			],
+			[
+				"http",
+				"https"
+			],
+			[
+				"Ra",
+				"Rasterization"
+			],
+			[
+				"Primit",
+				"Primitive_Assembly"
+			],
+			[
+				"con",
+				"container-outside-div"
+			],
+			[
+				"Open",
+				"OpenGL-Beginner-Tutorial-0-Introduce"
+			],
+			[
+				"curr",
+				"currentTabIndex"
+			],
+			[
+				"ch",
+				"chromeAdaptor (obj)"
+			],
+			[
+				"adapt",
+				"adaptor"
+			],
+			[
+				"get",
+				"getCurrentIndex (fn)"
+			],
+			[
+				"iStyleBack",
+				"iStyleBackgroundSubSystem〔function〕"
+			],
+			[
+				"sender",
+				"senderResp〔argument〕"
+			],
+			[
+				"sen",
+				"sendMessage"
+			],
+			[
+				"send",
+				"sendMessage"
+			],
+			[
+				"clou",
+				"cloudManager"
+			],
+			[
+				"recv",
+				"recievedMessage"
+			],
+			[
+				"iStyleCl",
+				"iStyleCloudManager〔class〕"
+			],
+			[
+				"chrome",
+				"chromeAdaptor"
+			],
+			[
+				"pop",
+				"popupModel (obj)"
+			],
+			[
+				"clo",
+				"cloudModel〔variable〕"
+			],
+			[
+				"loads",
+				"loadStyle"
+			],
+			[
+				"function",
+				"function (?)"
+			],
+			[
+				"cur",
+				"currentTabIndex"
+			],
+			[
+				"bac",
+				"backSystem"
+			],
+			[
+				"ta",
+				"tabDict"
+			],
+			[
+				"fin",
+				"finishFunc"
+			],
+			[
+				"set",
+				"setTimeout〔function〕"
+			],
+			[
+				"tabdi",
+				"tabDict〔variable〕"
+			],
+			[
+				"chec",
+				"checkState"
+			],
+			[
+				"check",
+				"checked"
+			],
+			[
+				"chan",
+				"changeHandler"
+			],
+			[
+				"iS",
+				"iStyleString"
+			],
+			[
+				"iStyle",
+				"iStyleObject"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"isty",
+				"iStyleObject"
+			],
+			[
+				"com",
+				"compressedMessage"
+			],
+			[
+				"oncl",
+				"onclick\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Homepage/source/_posts/Libgdx-遊戲淺研.md",
+			"settings":
+			{
+				"buffer_size": 5361,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 523.0,
+		"last_filter": "pcip",
+		"selected_items":
+		[
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"pcr",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 772.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Program/MyBlog/Hexo/Homepage",
+		"/D/Program/MyBlog/Hexo/Homepage/source",
+		"/D/Program/MyBlog/Hexo/Homepage/source/_posts"
+	],
+	"file_history":
+	[
+		"/D/Program/MyBlog/Hexo/Homepage/source/_posts/Tabber-Clock-App-一個可以分類的鬧鐘.md",
+		"/D/Java_Developer/GamingClock/.git/MERGE_MSG",
+		"/D/Program/MyBlog/Hexo/Homepage/source/_posts/OpenGL-Development-Journal.md",
+		"/D/Program/MyBlog/Hexo/Homepage/themes/myscape/layout/_partial/head.ejs",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/LinearMath/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/LinearMath/LinearMath.vcxproj.filters",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/LinearMath/LinearMath.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/LinearMath/LinearMath.dir/Debug/LinearMath.tlog/custombuild.command.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/LinearMath/LinearMath.dir/Debug/LinearMath.tlog/CL.write.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/LinearMath/LinearMath.dir/Debug/LinearMath.tlog/CL.read.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/LinearMath/LinearMath.dir/Debug/LinearMath.tlog/CL.command.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/LinearMath/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletSoftBody/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletSoftBody/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletSoftBody/BulletSoftBody.vcxproj.filters",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/LinearMath/LinearMath.dir/Debug/LinearMath.log",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/LinearMath/CTestTestfile.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/LinearMath/CMakeFiles/generate.stamp.depend",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/LinearMath/cmake_install.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/CTestTestfile.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/CMakeFiles/generate.stamp.depend",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/cmake_install.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletSoftBody/CTestTestfile.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletSoftBody/CMakeFiles/generate.stamp.depend",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletSoftBody/cmake_install.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletSoftBody/BulletSoftBody.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletInverseDynamics/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletInverseDynamics/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletInverseDynamics/BulletInverseDynamics.vcxproj.filters",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletInverseDynamics/CTestTestfile.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletInverseDynamics/CMakeFiles/generate.stamp.depend",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletInverseDynamics/cmake_install.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletInverseDynamics/BulletInverseDynamics.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletDynamics/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletDynamics/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletDynamics/BulletDynamics.vcxproj.filters",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletDynamics/CTestTestfile.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletDynamics/CMakeFiles/generate.stamp.depend",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletDynamics/cmake_install.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletDynamics/BulletDynamics.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletDynamics/BulletDynamics.dir/Debug/BulletDynamics.tlog/custombuild.write.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletDynamics/BulletDynamics.dir/Debug/BulletDynamics.tlog/custombuild.read.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletDynamics/BulletDynamics.dir/Debug/BulletDynamics.tlog/custombuild.command.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletDynamics/BulletDynamics.dir/Debug/BulletDynamics.tlog/CL.write.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletDynamics/BulletDynamics.dir/Debug/BulletDynamics.tlog/CL.read.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletDynamics/BulletDynamics.dir/Debug/BulletDynamics.tlog/CL.command.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletDynamics/BulletDynamics.dir/Debug/BulletDynamics.log",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletCollision/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletCollision/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletCollision/BulletCollision.vcxproj.filters",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletCollision/CTestTestfile.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletCollision/CMakeFiles/generate.stamp.depend",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletCollision/cmake_install.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletCollision/BulletCollision.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletCollision/BulletCollision.dir/Debug/BulletCollision.tlog/custombuild.command.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletCollision/BulletCollision.dir/Debug/BulletCollision.tlog/CL.write.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletCollision/BulletCollision.dir/Debug/BulletCollision.tlog/CL.command.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Serialize/Bullet2FileLoader/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Serialize/Bullet2FileLoader/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Serialize/Bullet2FileLoader/Bullet2FileLoader.vcxproj.filters",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletCollision/BulletCollision.dir/Debug/BulletCollision.log",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Serialize/Bullet2FileLoader/CTestTestfile.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/generate.stamp.depend",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Serialize/Bullet2FileLoader/cmake_install.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Serialize/Bullet2FileLoader/Bullet2FileLoader.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3OpenCL/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3OpenCL/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3OpenCL/Bullet3OpenCL_clew.vcxproj.filters",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3OpenCL/CTestTestfile.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3OpenCL/CMakeFiles/generate.stamp.depend",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3OpenCL/cmake_install.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3OpenCL/Bullet3OpenCL_clew.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Geometry/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Geometry/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Geometry/Bullet3Geometry.vcxproj.filters",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Geometry/CTestTestfile.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Geometry/CMakeFiles/generate.stamp.depend",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Geometry/cmake_install.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Geometry/Bullet3Geometry.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Dynamics/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Dynamics/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Dynamics/Bullet3Dynamics.vcxproj.filters",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Dynamics/CTestTestfile.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Dynamics/CMakeFiles/generate.stamp.depend",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Dynamics/cmake_install.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Dynamics/Bullet3Dynamics.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Dynamics/Bullet3Dynamics.dir/Debug/Bullet3Dynamics.tlog/custombuild.command.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Dynamics/Bullet3Dynamics.dir/Debug/Bullet3Dynamics.tlog/CL.write.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Dynamics/Bullet3Dynamics.dir/Debug/Bullet3Dynamics.tlog/CL.command.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Common/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Common/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Common/Bullet3Common.vcxproj.filters",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Dynamics/Bullet3Dynamics.dir/Debug/Bullet3Dynamics.log",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Common/CTestTestfile.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Common/CMakeFiles/generate.stamp.depend",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Common/cmake_install.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Common/Bullet3Common.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Collision/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Collision/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Collision/Bullet3Collision.vcxproj.filters",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Collision/CTestTestfile.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Collision/CMakeFiles/generate.stamp.depend",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Collision/cmake_install.cmake",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Collision/Bullet3Collision.vcxproj",
+		"/D/Program/MyBlog/Hexo/Homepage/package.json",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/LinearMath/LinearMath.dir/Debug/LinearMath.tlog/custombuild.write.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/LinearMath/LinearMath.dir/Debug/LinearMath.tlog/custombuild.read.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletCollision/BulletCollision.dir/Debug/BulletCollision.tlog/custombuild.write.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletCollision/BulletCollision.dir/Debug/BulletCollision.tlog/custombuild.read.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/BulletCollision/BulletCollision.dir/Debug/BulletCollision.tlog/CL.read.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Dynamics/Bullet3Dynamics.dir/Debug/Bullet3Dynamics.tlog/custombuild.write.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Dynamics/Bullet3Dynamics.dir/Debug/Bullet3Dynamics.tlog/custombuild.read.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/EngineProject/EngineProject/library/Bullet/project/Bullet3Dynamics/Bullet3Dynamics.dir/Debug/Bullet3Dynamics.tlog/CL.read.1.tlog",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/LinearMath/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/LinearMath/LinearMath.vcxproj.filters",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/LinearMath/LinearMath.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/LinearMath/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/BulletSoftBody/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/BulletSoftBody/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/BulletSoftBody/BulletSoftBody.vcxproj.filters",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/BulletSoftBody/BulletSoftBody.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/BulletInverseDynamics/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/BulletInverseDynamics/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/BulletInverseDynamics/BulletInverseDynamics.vcxproj.filters",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/BulletInverseDynamics/BulletInverseDynamics.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/BulletDynamics/RUN_TESTS.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/BulletDynamics/INSTALL.vcxproj",
+		"/D/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/build/src/BulletDynamics/BulletDynamics.vcxproj.filters"
+	],
+	"find":
+	{
+		"height": 56.0
+	},
+	"find_in_files":
+	{
+		"height": 291.0,
+		"where_history":
+		[
+			"D:\\Program\\OpenGL\\OpenGL_Gaming_Tech\\Bullet\\build",
+			"D:\\Program\\OpenGL\\OpenGL_Gaming_Tech\\EngineProject\\EngineProject\\library\\Bullet\\project",
+			"D:\\Program\\OpenGL\\OpenGL_Gaming_Tech\\Bullet\\build\\src",
+			"D:\\Program\\MyBlog\\Hexo\\Homepage\\themes\\myscape",
+			"D:\\Program\\MyBlog\\Hexo\\Homepage\\themes\\myscape,D:\\Program\\MyBlog\\Hexo\\Homepage\\node_modules,D:\\Program\\MyBlog\\Hexo\\Homepage\\source,D:\\Program\\MyBlog\\Hexo\\Homepage\\scaffolds",
+			"D:\\Program\\MyBlog\\Hexo\\Homepage\\themes\\myscape",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"篇",
+			"img",
+			"theme.google_analytics",
+			"google-analytics",
+			"D:\\Program\\OpenGL\\OpenGL_Gaming_Tech\\Bullet\\bullet3-2.85.1\\src",
+			"D:/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/bullet3-2.85.1/src",
+			"D:\\Program\\OpenGL\\OpenGL_Gaming_Tech\\Bullet\\bullet3-2.85.1\\src",
+			"D:\\\\Program\\\\OpenG\\L\\OpenGL_Gaming_Tech\\Bullet\\\\bullet3-2.85.1\\\\src|D:/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/bullet3-2.85.1/src",
+			"D:\\Program\\OpenGL\\OpenGL_Gaming_Tech\\Bullet\\bullet3-2.85.1\\src|D:/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/bullet3-2.85.1/src",
+			"(D:\\Program\\OpenGL\\OpenGL_Gaming_Tech\\Bullet\\bullet3-2.85.1\\src|D:/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/bullet3-2.85.1/src)",
+			"D:\\Program\\OpenGL\\OpenGL_Gaming_Tech\\Bullet\\bullet3-2.85.1\\src\nD:/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/bullet3-2.85.1/src",
+			"D:\\Program\\OpenGL\\OpenGL_Gaming_Tech\\Bullet\\bullet3-2.85.1\\src || D:/Program/OpenGL/OpenGL_Gaming_Tech/Bullet/bullet3-2.85.1/src",
+			"D:\\Program\\OpenGL\\OpenGL_Gaming_Tech\\Bullet\\bullet3-2.85.1\\src",
+			"D:\\Program\\OpenGL\\OpenGL_Gaming_Tech\\Bullet\\bullet3-2.85.1\\",
+			"D:\\Program\\OpenGL\\OpenGL_Gaming_Tech\\Bullet\\bullet3-2.85.1\\D:\\Program\\OpenGL\\OpenGL_Gaming_Tech\\Bullet\\bullet3-2.85.1\\",
+			"D:\\Program\\OpenGL\\OpenGL_Gaming_Tech\\Bullet\\bullet3-2.85.1\\",
+			"div",
+			"offset",
+			"1.2833",
+			"div",
+			"math",
+			"raw",
+			"main-nav",
+			"main",
+			"nav",
+			"meta",
+			"gl",
+			"-1",
+			"ban",
+			"center",
+			"#000",
+			"nav-icon",
+			"歐拉",
+			"favicon",
+			"favicon'",
+			"root",
+			"favi",
+			"column",
+			"sidebar",
+			"columns",
+			"max-width",
+			"footer",
+			"border-botoom",
+			"title",
+			"tag",
+			"article-header",
+			"article-",
+			"logo-size",
+			"body",
+			"code",
+			"eee",
+			"code",
+			"wrap",
+			"color-background",
+			"outer",
+			"logo",
+			"highlight",
+			"highlight ",
+			"cpp",
+			"figure",
+			"highlight",
+			"font-serif",
+			"inte",
+			"date",
+			"cbanner",
+			"outer",
+			"yaw",
+			"spec",
+			"Xspec",
+			"container",
+			"img",
+			"物體座標",
+			"div",
+			"##",
+			"OBT3",
+			"endmath",
+			"yspec",
+			"plane",
+			":\n",
+			"四元",
+			"div",
+			"到GPU中layout的部分。",
+			"vec",
+			"glm",
+			"篇",
+			"\\le",
+			"le",
+			"\\le",
+			"le",
+			"lt",
+			"\\lt",
+			"img",
+			"blockquote",
+			"sin",
+			"em:",
+			"sqrt",
+			"raw",
+			"em:",
+			"em",
+			"frac",
+			"_{",
+			"sqrt",
+			"###\n",
+			"BufferDa",
+			"container-inside-div",
+			"編號",
+			"數字",
+			"create",
+			"_",
+			"函",
+			"path",
+			"post_asset_folder",
+			"asset",
+			"img",
+			"box",
+			"extension",
+			"500",
+			" /",
+			"main-nav",
+			"mav",
+			"  width: auto;",
+			"main",
+			"maib",
+			"main-nav",
+			"main-nav auto",
+			"main\\-nav .* auto",
+			"main-nav",
+			"main"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$(ProjectDir)\\library\\Bullet\\include",
+			"a",
+			"$(ProjectDir)\\library\\Bullet\\",
+			"$(ProjectDir)\\Bullet\\",
+			"$(ProjectDir)\\Bullet"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Homepage/source/_posts/Libgdx-遊戲淺研.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3588,
+								3588
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3290.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mypage.sublime-project",
+	"replace":
+	{
+		"height": 103.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 435.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
