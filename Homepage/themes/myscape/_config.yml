@@ -21,6 +21,7 @@ widgets:
 - tagcloud
 - archive
 - recent_posts
+- links
 
 # Miscellaneous
 google_analytics: UA-65156776-1

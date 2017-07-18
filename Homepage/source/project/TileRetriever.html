@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<!--
+ Copyright (c) 2017 Dowen Den
+
+ This file is distributed under the GPL v2 license.
+ Please refer to the GPL2 file for a copy of the license.
+-->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+</head>
+<body onload="startGame()">
+<script>
+
+function startGame() {
+    myGameArea.start();
+}
+
+var myGameArea = {
+    canvas : document.createElement("canvas"),
+    start : function() {
+        this.canvas.width = 480;
+        this.canvas.height = 270;
+        this.context = this.canvas.getContext("2d");
+		// Set the blending operation.
+		this.context.globalCompositeOperation = "overlay";
+        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+		var img = new Image();
+		var localContext = this.context;
+		var localCanvas = this.canvas;
+		img.onload = function() {
+			localContext.drawImage(img, 0, 0);
+		};
+		img.src = 'https://cdn.sstatic.net/stackexchange/img/logos/so/so-icon.png';
+    },
+	background : new Image()
+}
+
+function readfile(input) {
+	if (input.files && input.files[0]) {
+		var reader = new FileReader();
+
+		reader.onload = function(e) {
+			var image = new Image();
+			image.src = e.target.result;
+			myGameArea.background = image;
+			image.onload = function() {
+				// access image size here 
+				myGameArea.canvas.width = this.width;
+				myGameArea.canvas.height = this.height;
+				myGameArea.context.drawImage(image, 0, 0);
+				
+				var cuswidth = parseInt(document.getElementById('textWidth').value);
+				var cusheight = parseInt(document.getElementById('textHeight').value);
+				console.log(this.width);
+				console.log(this.height);
+				console.log(cuswidth);
+				console.log(cusheight);
+				
+				var ctx = myGameArea.context;
+				ctx.strokeStyle="#FF0000";
+				ctx.font = "9px Arial";
+				ctx.strokeRect(cuswidth,cusheight,150,100);
+				var rects = [];
+				for(var i = 0; i < this.width;i+= cuswidth) {
+					for(var j = 0; j < this.height;j+= cusheight) {
+						//ctx.fillText("(" + i +"," + j + ")", i + cuswidth / 2, j + cusheight / 2);
+						rects.push({x: i, y: j, w: cuswidth, h: cusheight});
+					}
+				}
+				ctx.beginPath();
+				ctx.moveTo(0,0);
+				ctx.lineTo(cuswidth,cusheight);
+				ctx.stroke();
+				
+				
+				myGameArea.canvas.onmousemove = function(e) {
+
+				  // important: correct mouse position:
+				  var rect = this.getBoundingClientRect(),
+					  x = e.clientX - rect.left,
+					  y = e.clientY - rect.top,
+					  i = 0, r;
+				  
+				  ctx.clearRect(0, 0, myGameArea.canvas.width, myGameArea.canvas.height); // for demo
+				  myGameArea.context.drawImage(myGameArea.background, 0, 0);
+				  while(r = rects[i++]) {
+					// check if we hover it, fill red, if not fill it blue
+					// add a single rect to path:
+					ctx.beginPath();
+					ctx.rect(r.x, r.y, r.w, r.h);
+					if(ctx.isPointInPath(x, y)) {
+						ctx.fillStyle =  "rgba(25,25,25,0.2)";
+						ctx.fill();
+						ctx.fillStyle =  "rgba(0,0,0,1)";
+						ctx.fillText("(" + r.x / cuswidth +"," + r.y / cusheight + ")", r.x, r.y + cusheight / 2);
+					}
+				  }
+				};
+			};
+			//or however you get a handle to the IMG
+		}
+
+		reader.readAsDataURL(input.files[0]);
+	}
+}
+</script>
+
+<p>We have created a game area! (or at least an empty canvas)</p>
+<form id="set">
+	<input id="textWidth" type="text" id="width" value="16">
+	<input id="textHeight" type="text" id="height" value="16">
+	<input type='file' onchange="readfile(this);" />
+</form>
+
+</body>
+</html>
+
